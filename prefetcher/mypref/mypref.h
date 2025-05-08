@@ -16,6 +16,16 @@ Weak sequential table
   
 Weak random table
 
+Miss LRU table
+hash(ip0) -> stride_lru_miss_table[]
+hash(ip1) -> stride_lru_miss_table[]
+hash(ip2) -> stride_lru_miss_table[]
+hash(ip3) -> stride_lru_miss_table[]
+
+ip(p0) != ip(p0)
+[A3,A2] -> [A2,A1] -> [A0,A1] 
+if next to add is already in the queue
+write in the lru table
 */
 
 
@@ -30,7 +40,7 @@ Weak random table
 #include "champsim.h"
 #include "modules.h"
 #include "msl/lru_table.h"
-/* MAIN IDEAS    */
+/* MAIN IDEAS */
 // Es importante no saturar el bus??
 // Prefech depending on jump in loops         // 16 kb
 // ip -> addr
@@ -91,6 +101,13 @@ Weak random table
 // M[prev_miss] <- addr
 // prev_miss <- addr
 
+
+/*
+miss table
+[ ip1 -> ip2, ip3, ip4 ]
+[ ip2 -> ip3, ip4 ]
+[ ip4 -> ]
+*/
 template <typename T, unsigned Sz>
 class queue {
 
@@ -125,6 +142,34 @@ class queue {
 
 class mypref : public champsim::modules::prefetcher
 {
+
+  constexpr static std::size_t MISS_RELATED_STRIDE_SIZE = 4;
+
+  struct miss_related_table_entry {
+
+    champsim::address ip{};
+    champsim::block_number::difference_type stride_queue[MISS_RELATED_STRIDE_SIZE];
+
+    auto index() const
+    {
+      using namespace champsim::data::data_literals;
+
+      return ip.slice_upper<2_b>();
+    }
+    auto tag() const
+    {
+      using namespace champsim::data::data_literals;
+      
+      return ip.slice_upper<2_b>();
+    }
+
+  };
+
+  struct miss_related_pair {
+
+    champsim::address ip{}, addr{};
+
+  };
 
   struct random_entry {
 
@@ -166,10 +211,6 @@ class mypref : public champsim::modules::prefetcher
     champsim::address addr{};                              // the IP we're tracking
     // data
     entry_type type;                                      
-    union {
-      sequential_entry sequential;
-      random_entry random;
-    };
 
 
     auto index() const
@@ -197,17 +238,34 @@ class mypref : public champsim::modules::prefetcher
   constexpr static std::size_t TRACKER_WAYS = 4;
   constexpr static std::size_t RTABLE_NUM =  4;
 
-  std::optional<lookahead_entry> active_lookahead;
-  std::optional<random_entry> object_lookahead;
+  // std::optional<lookahead_entry> active_lookahead;
+  // std::optional<random_entry> object_lookahead;
+  // champsim::msl::lru_table<tracker_entry> table{TRACKER_SETS, TRACKER_WAYS};
+  // champsim::msl::lru_table<random_entry> Otable{TRACKER_SETS, TRACKER_WAYS};
+  // queue<random_entry, TRACKER_SETS> R1buffer;
+  // queue<random_entry, TRACKER_SETS> R2buffer;
+  // queue<random_entry, TRACKER_SETS> R3buffer;
 
-  champsim::msl::lru_table<tracker_entry> table{TRACKER_SETS, TRACKER_WAYS};
+  // random_entry R1_entry, R2_entry, R3_entry;
 
-  champsim::msl::lru_table<random_entry> Otable{TRACKER_SETS, TRACKER_WAYS};
-  queue<random_entry, TRACKER_SETS> R1buffer;
-  queue<random_entry, TRACKER_SETS> R2buffer;
-  queue<random_entry, TRACKER_SETS> R3buffer;
+  /*
+  miss related table
+  [ip1 -> off[2,3,4]]
+  [ip2 -> off[3,4]]
+  [ip3 -> off[4]]
+  [ip4 -> off[]]
 
-  random_entry R1_entry, R2_entry, R3_entry;
+  miss related lookahead
+  (addr, off)
+
+  last missed addr
+  (ip1, addr1), ip2, ip3, ip4
+
+  */
+  champsim::msl::lru_table<miss_related_table_entry> miss_related_table{TRACKER_SETS, TRACKER_WAYS};
+  std::optional<miss_related_table_entry> miss_related_lookahead;
+  miss_related_pair last_missed_pairs[MISS_RELATED_STRIDE_SIZE];
+
 public:
   using prefetcher::prefetcher;
 
