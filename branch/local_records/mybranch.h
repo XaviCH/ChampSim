@@ -53,46 +53,26 @@ ocurrency tables
 class mybranch : champsim::modules::branch_predictor
 {
 
-  constexpr static int          threshold   = 15;
-  constexpr static std::size_t  TABLE_SETS  = 256;
-  constexpr static std::size_t  TABLE_WAYS  = 4;
-
-  struct ip_counter_entry {
-    champsim::address ip;
-    uint16_t max_count;
-    uint16_t count;
-
-    auto index() const
-    {
-      using namespace champsim::data::data_literals;
-
-      return ip.slice_upper<2_b>();
-    }
-    auto tag() const
-    {
-      using namespace champsim::data::data_literals;
-      
-      return ip.slice_upper<2_b>();
-    }
-  };
-
-  champsim::msl::lru_table<ip_counter_entry> ip_counter_table{TABLE_SETS, TABLE_WAYS};
-
   [[nodiscard]] static constexpr auto hash(champsim::address ip) { return ip.to<unsigned long>() % PRIME; }
-  [[nodiscard]] static constexpr auto hash(uint64_t ip) { return ip % PRIME; }
 
   static constexpr std::size_t TABLE_SIZE = 16384;
   static constexpr std::size_t PRIME = 16381;
-  static constexpr std::size_t BITS = 2;
+
+  static constexpr std::size_t HISTORY_SIZE = 64;
+  static constexpr std::size_t RECORD_SIZE = 64;
+  static constexpr std::size_t RECORD_BLOCK_SIZE = 4;
+  // static constexpr std::size_t BITS = 2;
 
   struct occurency_entry {
-    std::bitset<64>             local_history;
-    std::bitset<64>             equal_history;
-    champsim::msl::fwcounter<2> counter;
+    std::bitset<HISTORY_SIZE>   history;
+    std::bitset<RECORD_SIZE>    equal_record;
+    int counter;
+    // champsim::msl::fwcounter<2> counter;
   };
 
-  std::bitset<64> global_register;
   std::array<std::optional<occurency_entry>, TABLE_SIZE> occurency_table;
+
+  bool predict(const occurency_entry& entry);
 
 public:
   using branch_predictor::branch_predictor;
