@@ -24,8 +24,7 @@ do
                 make CXXFLAGS="-D'GLOBAL_HISTORY_LENGTH_VALUE=$GLOBAL_HISTORY_LENGTH_VALUE' -D'IP_HISTORY_TABLE_SIZE_VALUE=$IP_HISTORY_TABLE_SIZE_VALUE' -D'TENDENCY_BITS_VALUE=$TENDENCY_BITS_VALUE' -D'GS_HISTORY_TABLE_SIZE_VALUE=$GS_HISTORY_TABLE_SIZE_VALUE'"
                 for TEST in ${BRANCH_TESTS[@]}
                 do
-                    echo GLOBAL_HISTORY_LENGTH_VALUE=$GLOBAL_HISTORY_LENGTH_VALUE IP_HISTORY_TABLE_SIZE_VALUE=$IP_HISTORY_TABLE_SIZE_VALUE TENDENCY_BITS_VALUE=$TENDENCY_BITS_VALUE GS_HISTORY_TABLE_SIZE_VALUE=$GS_HISTORY_TABLE_SIZE_VALUE >> $TEST.log.txt
-                    bin/champsim --warmup_instructions 20 --simulation_instructions 10 $TEST_DIR/$TEST | grep "CPU 0 Branch Prediction Accuracy:" >> $TEST.log.txt &
+                    bin/champsim --warmup_instructions 20 --simulation_instructions 10 $TEST_DIR/$TEST | grep "CPU 0 Branch Prediction Accuracy:" >> $TEST.$GLOBAL_HISTORY_LENGTH_VALUE.$IP_HISTORY_TABLE_SIZE_VALUE.$TENDENCY_BITS_VALUE.$GS_HISTORY_TABLE_SIZE_VALUE.log.txt &
                 done
             done
         done
