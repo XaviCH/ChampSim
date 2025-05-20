@@ -21,28 +21,43 @@ for fname in os.listdir(log_dir):
     if not match:
         continue
     test, global_hist, ip_hist, tendency_bits, gs_hist = match.groups()
-    with open(os.path.join(log_dir, fname), 'r', encoding='utf-8') as f:
-        line = f.readline().strip()
-        if not line:
+    file_path = os.path.join(log_dir, fname)
+    with open(file_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+        deadlock = any('DEADLOCK!' in line for line in lines)
+        deadlock = int(deadlock)
+        if not lines:
             # File is empty, save NaN values
             rows.append([
-                test, global_hist, ip_hist, tendency_bits, gs_hist, 'NaN', 'NaN', 'NaN'
+                test, global_hist, ip_hist, tendency_bits, gs_hist, 'NaN', 'NaN', 'NaN', deadlock
             ])
             continue
-        line_match = line_re.match(line)
-        if not line_match:
-            continue
-        accuracy, mpki, rob_occ = line_match.groups()
-        rows.append([
-            test, global_hist, ip_hist, tendency_bits, gs_hist, accuracy, mpki, rob_occ
-        ])
+        # Search for the first line matching the accuracy/MPKI/ROB pattern
+        found = False
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+            line_match = line_re.match(line)
+            if line_match:
+                accuracy, mpki, rob_occ = line_match.groups()
+                rows.append([
+                    test, global_hist, ip_hist, tendency_bits, gs_hist, accuracy, mpki, rob_occ, deadlock
+                ])
+                found = True
+                break
+        if not found:
+            # No matching line found, save NaN values
+            rows.append([
+                test, global_hist, ip_hist, tendency_bits, gs_hist, 'NaN', 'NaN', 'NaN', deadlock
+            ])
 
 # Write to CSV
 with open(output_csv, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow([
         'TEST', 'GLOBAL_HISTORY_LENGTH', 'IP_HISTORY_TABLE_SIZE', 'TENDENCY_BITS', 'GS_HISTORY_TABLE_SIZE',
-        'Branch Prediction Accuracy (%)', 'MPKI', 'Average ROB Occupancy at Mispredict'
+        'Branch Prediction Accuracy (%)', 'MPKI', 'Average ROB Occupancy at Mispredict', 'deadlock'
     ])
     writer.writerows(rows)
 

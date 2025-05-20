@@ -12,6 +12,8 @@ GS_HISTORY_TABLE_SIZE_VALUES=(524288 262144)
 
 mkdir branch_logs
 
+max_jobs=8
+
 for GLOBAL_HISTORY_LENGTH_VALUE in ${GLOBAL_HISTORY_LENGTH_VALUES[@]}
 do
     for IP_HISTORY_TABLE_SIZE_VALUE in ${IP_HISTORY_TABLE_SIZE_VALUES[@]}
@@ -24,10 +26,15 @@ do
                 make CXXFLAGS="-D'GLOBAL_HISTORY_LENGTH_VALUE=$GLOBAL_HISTORY_LENGTH_VALUE' -D'IP_HISTORY_TABLE_SIZE_VALUE=$IP_HISTORY_TABLE_SIZE_VALUE' -D'TENDENCY_BITS_VALUE=$TENDENCY_BITS_VALUE' -D'GS_HISTORY_TABLE_SIZE_VALUE=$GS_HISTORY_TABLE_SIZE_VALUE'"
                 for TEST in ${BRANCH_TESTS[@]}
                 do
-                    bin/champsim --warmup_instructions 20000000 --simulation_instructions 10000000 $TEST_DIR/$TEST | grep "CPU 0 Branch Prediction Accuracy:" >> branch_logs/$TEST.$GLOBAL_HISTORY_LENGTH_VALUE.$IP_HISTORY_TABLE_SIZE_VALUE.$TENDENCY_BITS_VALUE.$GS_HISTORY_TABLE_SIZE_VALUE.log.txt &
+                    # Wait if the number of active jobs meets or exceeds max_jobs
+                    while (( $(jobs -p | wc -l) >= max_jobs )); do
+                        wait -n # Waits for any single job to complete (requires Bash 4.3+)
+                    done
+                    bin/champsim --warmup-instructions 20000000 --simulation-instructions 10000000 $TEST_DIR/$TEST > branch_logs/$TEST.$GLOBAL_HISTORY_LENGTH_VALUE.$IP_HISTORY_TABLE_SIZE_VALUE.$TENDENCY_BITS_VALUE.$GS_HISTORY_TABLE_SIZE_VALUE.log.txt &
                 done
             done
         done
     done
 done
 
+wait # Wait for all remaining background jobs to complete

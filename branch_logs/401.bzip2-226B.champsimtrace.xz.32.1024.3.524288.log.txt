@@ -1,0 +1,1306 @@
+[VMEM] WARNING: physical memory size is smaller than virtual memory size.
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+Warmup Instructions: 20000000
+Simulation Instructions: 10000000
+Number of CPUs: 1
+Page size: 4096
+
+Off-chip DRAM Size: 16 GiB Channels: 1 Width: 64-bit Data Rate: 3205 MT/s
+Heartbeat CPU 0 instructions: 10000001 cycles: 3368008 heartbeat IPC: 2.969 cumulative IPC: 2.969 (Simulation time: 00 hr 01 min 32 sec)
+Tendency balance: 0.056259.
+Warmup finished CPU 0 instructions: 20000000 cycles: 6990010 cumulative IPC: 2.861 (Simulation time: 00 hr 02 min 57 sec)
+Warmup complete CPU 0 instructions: 20000000 cycles: 6990010 cumulative IPC: 2.861 (Simulation time: 00 hr 02 min 57 sec)
+Heartbeat CPU 0 instructions: 20000003 cycles: 6990011 heartbeat IPC: 2.761 cumulative IPC: 3 (Simulation time: 00 hr 02 min 57 sec)
+DEADLOCK! CPU 0 cycle 13074623
+[cpu0_IFETCH] entry:   0 instr_id: 25965047 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072338
+[cpu0_IFETCH] entry:   1 instr_id: 25965048 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072339
+[cpu0_IFETCH] entry:   2 instr_id: 25965049 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072339
+[cpu0_IFETCH] entry:   3 instr_id: 25965050 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072340
+[cpu0_IFETCH] entry:   4 instr_id: 25965051 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072340
+[cpu0_IFETCH] entry:   5 instr_id: 25965052 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072340
+[cpu0_IFETCH] entry:   6 instr_id: 25965053 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072340
+[cpu0_IFETCH] entry:   7 instr_id: 25965054 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072340
+[cpu0_IFETCH] entry:   8 instr_id: 25965055 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072340
+[cpu0_IFETCH] entry:   9 instr_id: 25965056 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072341
+[cpu0_IFETCH] entry:  10 instr_id: 25965057 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072341
+[cpu0_IFETCH] entry:  11 instr_id: 25965058 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072341
+[cpu0_IFETCH] entry:  12 instr_id: 25965059 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072341
+[cpu0_IFETCH] entry:  13 instr_id: 25965060 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072341
+[cpu0_IFETCH] entry:  14 instr_id: 25965061 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072341
+[cpu0_IFETCH] entry:  15 instr_id: 25965062 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072342
+[cpu0_IFETCH] entry:  16 instr_id: 25965063 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072342
+[cpu0_IFETCH] entry:  17 instr_id: 25965064 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072342
+[cpu0_IFETCH] entry:  18 instr_id: 25965065 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072342
+[cpu0_IFETCH] entry:  19 instr_id: 25965066 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072342
+[cpu0_IFETCH] entry:  20 instr_id: 25965067 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072343
+[cpu0_IFETCH] entry:  21 instr_id: 25965068 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072343
+[cpu0_IFETCH] entry:  22 instr_id: 25965069 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072343
+[cpu0_IFETCH] entry:  23 instr_id: 25965070 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072343
+[cpu0_IFETCH] entry:  24 instr_id: 25965071 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072343
+[cpu0_IFETCH] entry:  25 instr_id: 25965072 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072344
+[cpu0_IFETCH] entry:  26 instr_id: 25965073 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072344
+[cpu0_IFETCH] entry:  27 instr_id: 25965074 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072344
+[cpu0_IFETCH] entry:  28 instr_id: 25965075 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072344
+[cpu0_IFETCH] entry:  29 instr_id: 25965076 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072344
+[cpu0_IFETCH] entry:  30 instr_id: 25965077 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072345
+[cpu0_IFETCH] entry:  31 instr_id: 25965078 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072345
+[cpu0_IFETCH] entry:  32 instr_id: 25965079 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072345
+[cpu0_IFETCH] entry:  33 instr_id: 25965080 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072345
+[cpu0_IFETCH] entry:  34 instr_id: 25965081 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072345
+[cpu0_IFETCH] entry:  35 instr_id: 25965082 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072346
+[cpu0_IFETCH] entry:  36 instr_id: 25965083 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072346
+[cpu0_IFETCH] entry:  37 instr_id: 25965084 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072346
+[cpu0_IFETCH] entry:  38 instr_id: 25965085 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072346
+[cpu0_IFETCH] entry:  39 instr_id: 25965086 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072346
+[cpu0_IFETCH] entry:  40 instr_id: 25965087 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072347
+[cpu0_IFETCH] entry:  41 instr_id: 25965088 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072347
+[cpu0_IFETCH] entry:  42 instr_id: 25965089 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072347
+[cpu0_IFETCH] entry:  43 instr_id: 25965090 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072347
+[cpu0_IFETCH] entry:  44 instr_id: 25965091 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072347
+[cpu0_IFETCH] entry:  45 instr_id: 25965092 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072348
+[cpu0_IFETCH] entry:  46 instr_id: 25965093 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072348
+[cpu0_IFETCH] entry:  47 instr_id: 25965094 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072348
+[cpu0_IFETCH] entry:  48 instr_id: 25965095 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072348
+[cpu0_IFETCH] entry:  49 instr_id: 25965096 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072348
+[cpu0_IFETCH] entry:  50 instr_id: 25965097 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072349
+[cpu0_IFETCH] entry:  51 instr_id: 25965098 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072363
+[cpu0_IFETCH] entry:  52 instr_id: 25965099 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072364
+[cpu0_IFETCH] entry:  53 instr_id: 25965100 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072365
+[cpu0_IFETCH] entry:  54 instr_id: 25965101 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072365
+[cpu0_IFETCH] entry:  55 instr_id: 25965102 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072365
+[cpu0_IFETCH] entry:  56 instr_id: 25965103 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072366
+[cpu0_IFETCH] entry:  57 instr_id: 25965104 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072366
+[cpu0_IFETCH] entry:  58 instr_id: 25965105 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072367
+[cpu0_IFETCH] entry:  59 instr_id: 25965106 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072367
+[cpu0_IFETCH] entry:  60 instr_id: 25965107 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072367
+[cpu0_IFETCH] entry:  61 instr_id: 25965108 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072367
+[cpu0_IFETCH] entry:  62 instr_id: 25965109 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072367
+[cpu0_IFETCH] entry:  63 instr_id: 25965110 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072367
+
+cpu0_DECODE empty
+
+[cpu0_DISPATCH] entry:   0 instr_id: 25964983 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072345
+[cpu0_DISPATCH] entry:   1 instr_id: 25964984 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072345
+[cpu0_DISPATCH] entry:   2 instr_id: 25964985 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072345
+[cpu0_DISPATCH] entry:   3 instr_id: 25964986 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072346
+[cpu0_DISPATCH] entry:   4 instr_id: 25964987 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072346
+[cpu0_DISPATCH] entry:   5 instr_id: 25964988 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072346
+[cpu0_DISPATCH] entry:   6 instr_id: 25964989 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072346
+[cpu0_DISPATCH] entry:   7 instr_id: 25964990 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072346
+[cpu0_DISPATCH] entry:   8 instr_id: 25964991 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072347
+[cpu0_DISPATCH] entry:   9 instr_id: 25964992 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072347
+[cpu0_DISPATCH] entry:  10 instr_id: 25964993 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072347
+[cpu0_DISPATCH] entry:  11 instr_id: 25964994 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072347
+[cpu0_DISPATCH] entry:  12 instr_id: 25964995 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072347
+[cpu0_DISPATCH] entry:  13 instr_id: 25964996 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072348
+[cpu0_DISPATCH] entry:  14 instr_id: 25964997 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072348
+[cpu0_DISPATCH] entry:  15 instr_id: 25964998 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072348
+[cpu0_DISPATCH] entry:  16 instr_id: 25964999 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072348
+[cpu0_DISPATCH] entry:  17 instr_id: 25965000 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072348
+[cpu0_DISPATCH] entry:  18 instr_id: 25965001 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072349
+[cpu0_DISPATCH] entry:  19 instr_id: 25965002 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072363
+[cpu0_DISPATCH] entry:  20 instr_id: 25965003 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072364
+[cpu0_DISPATCH] entry:  21 instr_id: 25965004 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072365
+[cpu0_DISPATCH] entry:  22 instr_id: 25965005 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072365
+[cpu0_DISPATCH] entry:  23 instr_id: 25965006 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072365
+[cpu0_DISPATCH] entry:  24 instr_id: 25965007 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072366
+[cpu0_DISPATCH] entry:  25 instr_id: 25965008 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072366
+[cpu0_DISPATCH] entry:  26 instr_id: 25965009 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072366
+[cpu0_DISPATCH] entry:  27 instr_id: 25965010 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072366
+[cpu0_DISPATCH] entry:  28 instr_id: 25965011 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072366
+[cpu0_DISPATCH] entry:  29 instr_id: 25965012 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072367
+[cpu0_DISPATCH] entry:  30 instr_id: 25965013 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072367
+[cpu0_DISPATCH] entry:  31 instr_id: 25965014 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072367
+
+[cpu0_ROB] entry:   0 instr_id: 25964631 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072327
+[cpu0_ROB] entry:   1 instr_id: 25964632 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072158
+[cpu0_ROB] entry:   2 instr_id: 25964633 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 1 event: 13072158
+[cpu0_ROB] entry:   3 instr_id: 25964634 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072293
+[cpu0_ROB] entry:   4 instr_id: 25964635 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072293
+[cpu0_ROB] entry:   5 instr_id: 25964636 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072159
+[cpu0_ROB] entry:   6 instr_id: 25964637 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 1 event: 13072159
+[cpu0_ROB] entry:   7 instr_id: 25964638 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072322
+[cpu0_ROB] entry:   8 instr_id: 25964639 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072331
+[cpu0_ROB] entry:   9 instr_id: 25964640 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072332
+[cpu0_ROB] entry:  10 instr_id: 25964641 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072323
+[cpu0_ROB] entry:  11 instr_id: 25964642 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072325
+[cpu0_ROB] entry:  12 instr_id: 25964643 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072327
+[cpu0_ROB] entry:  13 instr_id: 25964644 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072328
+[cpu0_ROB] entry:  14 instr_id: 25964645 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072161
+[cpu0_ROB] entry:  15 instr_id: 25964646 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 1 event: 13072161
+[cpu0_ROB] entry:  16 instr_id: 25964647 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072326
+[cpu0_ROB] entry:  17 instr_id: 25964648 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072161
+[cpu0_ROB] entry:  18 instr_id: 25964649 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 1 event: 13072162
+[cpu0_ROB] entry:  19 instr_id: 25964650 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072327
+[cpu0_ROB] entry:  20 instr_id: 25964651 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072328
+[cpu0_ROB] entry:  21 instr_id: 25964652 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072331
+[cpu0_ROB] entry:  22 instr_id: 25964653 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072337
+[cpu0_ROB] entry:  23 instr_id: 25964654 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072337
+[cpu0_ROB] entry:  24 instr_id: 25964655 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072339
+[cpu0_ROB] entry:  25 instr_id: 25964656 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072340
+[cpu0_ROB] entry:  26 instr_id: 25964657 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072163
+[cpu0_ROB] entry:  27 instr_id: 25964658 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 1 event: 13072163
+[cpu0_ROB] entry:  28 instr_id: 25964659 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072340
+[cpu0_ROB] entry:  29 instr_id: 25964660 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072341
+[cpu0_ROB] entry:  30 instr_id: 25964661 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072164
+[cpu0_ROB] entry:  31 instr_id: 25964662 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072342
+[cpu0_ROB] entry:  32 instr_id: 25964663 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 1 event: 13072164
+[cpu0_ROB] entry:  33 instr_id: 25964664 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072343
+[cpu0_ROB] entry:  34 instr_id: 25964665 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072341
+[cpu0_ROB] entry:  35 instr_id: 25964666 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072341
+[cpu0_ROB] entry:  36 instr_id: 25964667 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072165
+[cpu0_ROB] entry:  37 instr_id: 25964668 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072165
+[cpu0_ROB] entry:  38 instr_id: 25964669 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072342
+[cpu0_ROB] entry:  39 instr_id: 25964670 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072342
+[cpu0_ROB] entry:  40 instr_id: 25964671 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072342
+[cpu0_ROB] entry:  41 instr_id: 25964672 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072166
+[cpu0_ROB] entry:  42 instr_id: 25964673 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 1 event: 13072166
+[cpu0_ROB] entry:  43 instr_id: 25964674 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072167
+[cpu0_ROB] entry:  44 instr_id: 25964675 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072167
+[cpu0_ROB] entry:  45 instr_id: 25964676 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072343
+[cpu0_ROB] entry:  46 instr_id: 25964677 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072167
+[cpu0_ROB] entry:  47 instr_id: 25964678 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072167
+[cpu0_ROB] entry:  48 instr_id: 25964679 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072343
+[cpu0_ROB] entry:  49 instr_id: 25964680 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072343
+[cpu0_ROB] entry:  50 instr_id: 25964681 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072168
+[cpu0_ROB] entry:  51 instr_id: 25964682 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072168
+[cpu0_ROB] entry:  52 instr_id: 25964683 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072344
+[cpu0_ROB] entry:  53 instr_id: 25964684 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072344
+[cpu0_ROB] entry:  54 instr_id: 25964685 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072169
+[cpu0_ROB] entry:  55 instr_id: 25964686 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 1 event: 13072169
+[cpu0_ROB] entry:  56 instr_id: 25964687 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072188
+[cpu0_ROB] entry:  57 instr_id: 25964688 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072188
+[cpu0_ROB] entry:  58 instr_id: 25964689 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072345
+[cpu0_ROB] entry:  59 instr_id: 25964690 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072345
+[cpu0_ROB] entry:  60 instr_id: 25964691 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072190
+[cpu0_ROB] entry:  61 instr_id: 25964692 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072190
+[cpu0_ROB] entry:  62 instr_id: 25964693 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072345
+[cpu0_ROB] entry:  63 instr_id: 25964694 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072191
+[cpu0_ROB] entry:  64 instr_id: 25964695 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072196
+[cpu0_ROB] entry:  65 instr_id: 25964696 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072346
+[cpu0_ROB] entry:  66 instr_id: 25964697 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072347
+[cpu0_ROB] entry:  67 instr_id: 25964698 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072198
+[cpu0_ROB] entry:  68 instr_id: 25964699 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 1 event: 13072198
+[cpu0_ROB] entry:  69 instr_id: 25964700 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072199
+[cpu0_ROB] entry:  70 instr_id: 25964701 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072199
+[cpu0_ROB] entry:  71 instr_id: 25964702 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072348
+[cpu0_ROB] entry:  72 instr_id: 25964703 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072199
+[cpu0_ROB] entry:  73 instr_id: 25964704 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072199
+[cpu0_ROB] entry:  74 instr_id: 25964705 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072348
+[cpu0_ROB] entry:  75 instr_id: 25964706 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072348
+[cpu0_ROB] entry:  76 instr_id: 25964707 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072200
+[cpu0_ROB] entry:  77 instr_id: 25964708 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072200
+[cpu0_ROB] entry:  78 instr_id: 25964709 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072364
+[cpu0_ROB] entry:  79 instr_id: 25964710 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072202
+[cpu0_ROB] entry:  80 instr_id: 25964711 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 1 event: 13072202
+[cpu0_ROB] entry:  81 instr_id: 25964712 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072202
+[cpu0_ROB] entry:  82 instr_id: 25964713 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072202
+[cpu0_ROB] entry:  83 instr_id: 25964714 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072366
+[cpu0_ROB] entry:  84 instr_id: 25964715 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072366
+[cpu0_ROB] entry:  85 instr_id: 25964716 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072203
+[cpu0_ROB] entry:  86 instr_id: 25964717 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072367
+[cpu0_ROB] entry:  87 instr_id: 25964718 fetch_issued: true fetch_completed: true scheduled: true executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072203
+[cpu0_ROB] entry:  88 instr_id: 25964719 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072368
+[cpu0_ROB] entry:  89 instr_id: 25964720 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072367
+[cpu0_ROB] entry:  90 instr_id: 25964721 fetch_issued: true fetch_completed: true scheduled: true executed: true completed: true num_reg_dependent: 0 num_mem_ops: 0 event: 13072367
+[cpu0_ROB] entry:  91 instr_id: 25964722 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072204
+[cpu0_ROB] entry:  92 instr_id: 25964723 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072204
+[cpu0_ROB] entry:  93 instr_id: 25964724 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072205
+[cpu0_ROB] entry:  94 instr_id: 25964725 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072205
+[cpu0_ROB] entry:  95 instr_id: 25964726 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072205
+[cpu0_ROB] entry:  96 instr_id: 25964727 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072205
+[cpu0_ROB] entry:  97 instr_id: 25964728 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072205
+[cpu0_ROB] entry:  98 instr_id: 25964729 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072206
+[cpu0_ROB] entry:  99 instr_id: 25964730 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072206
+[cpu0_ROB] entry: 100 instr_id: 25964731 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072206
+[cpu0_ROB] entry: 101 instr_id: 25964732 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072206
+[cpu0_ROB] entry: 102 instr_id: 25964733 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072209
+[cpu0_ROB] entry: 103 instr_id: 25964734 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072210
+[cpu0_ROB] entry: 104 instr_id: 25964735 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072211
+[cpu0_ROB] entry: 105 instr_id: 25964736 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072211
+[cpu0_ROB] entry: 106 instr_id: 25964737 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072211
+[cpu0_ROB] entry: 107 instr_id: 25964738 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072211
+[cpu0_ROB] entry: 108 instr_id: 25964739 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072211
+[cpu0_ROB] entry: 109 instr_id: 25964740 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072212
+[cpu0_ROB] entry: 110 instr_id: 25964741 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072212
+[cpu0_ROB] entry: 111 instr_id: 25964742 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072212
+[cpu0_ROB] entry: 112 instr_id: 25964743 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072212
+[cpu0_ROB] entry: 113 instr_id: 25964744 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072212
+[cpu0_ROB] entry: 114 instr_id: 25964745 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072213
+[cpu0_ROB] entry: 115 instr_id: 25964746 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072213
+[cpu0_ROB] entry: 116 instr_id: 25964747 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072213
+[cpu0_ROB] entry: 117 instr_id: 25964748 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072213
+[cpu0_ROB] entry: 118 instr_id: 25964749 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072213
+[cpu0_ROB] entry: 119 instr_id: 25964750 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072229
+[cpu0_ROB] entry: 120 instr_id: 25964751 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072230
+[cpu0_ROB] entry: 121 instr_id: 25964752 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072231
+[cpu0_ROB] entry: 122 instr_id: 25964753 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072231
+[cpu0_ROB] entry: 123 instr_id: 25964754 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072231
+[cpu0_ROB] entry: 124 instr_id: 25964755 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072232
+[cpu0_ROB] entry: 125 instr_id: 25964756 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072232
+[cpu0_ROB] entry: 126 instr_id: 25964757 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072232
+[cpu0_ROB] entry: 127 instr_id: 25964758 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072232
+[cpu0_ROB] entry: 128 instr_id: 25964759 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072232
+[cpu0_ROB] entry: 129 instr_id: 25964760 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072233
+[cpu0_ROB] entry: 130 instr_id: 25964761 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072233
+[cpu0_ROB] entry: 131 instr_id: 25964762 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072233
+[cpu0_ROB] entry: 132 instr_id: 25964763 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072233
+[cpu0_ROB] entry: 133 instr_id: 25964764 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072233
+[cpu0_ROB] entry: 134 instr_id: 25964765 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072234
+[cpu0_ROB] entry: 135 instr_id: 25964766 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072234
+[cpu0_ROB] entry: 136 instr_id: 25964767 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072234
+[cpu0_ROB] entry: 137 instr_id: 25964768 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072234
+[cpu0_ROB] entry: 138 instr_id: 25964769 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072234
+[cpu0_ROB] entry: 139 instr_id: 25964770 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072235
+[cpu0_ROB] entry: 140 instr_id: 25964771 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072235
+[cpu0_ROB] entry: 141 instr_id: 25964772 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072235
+[cpu0_ROB] entry: 142 instr_id: 25964773 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072235
+[cpu0_ROB] entry: 143 instr_id: 25964774 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072235
+[cpu0_ROB] entry: 144 instr_id: 25964775 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072236
+[cpu0_ROB] entry: 145 instr_id: 25964776 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072244
+[cpu0_ROB] entry: 146 instr_id: 25964777 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072245
+[cpu0_ROB] entry: 147 instr_id: 25964778 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072246
+[cpu0_ROB] entry: 148 instr_id: 25964779 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072246
+[cpu0_ROB] entry: 149 instr_id: 25964780 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072246
+[cpu0_ROB] entry: 150 instr_id: 25964781 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072247
+[cpu0_ROB] entry: 151 instr_id: 25964782 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072247
+[cpu0_ROB] entry: 152 instr_id: 25964783 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072247
+[cpu0_ROB] entry: 153 instr_id: 25964784 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072247
+[cpu0_ROB] entry: 154 instr_id: 25964785 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072247
+[cpu0_ROB] entry: 155 instr_id: 25964786 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072248
+[cpu0_ROB] entry: 156 instr_id: 25964787 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072248
+[cpu0_ROB] entry: 157 instr_id: 25964788 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072248
+[cpu0_ROB] entry: 158 instr_id: 25964789 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072248
+[cpu0_ROB] entry: 159 instr_id: 25964790 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072249
+[cpu0_ROB] entry: 160 instr_id: 25964791 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072249
+[cpu0_ROB] entry: 161 instr_id: 25964792 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072249
+[cpu0_ROB] entry: 162 instr_id: 25964793 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072249
+[cpu0_ROB] entry: 163 instr_id: 25964794 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072249
+[cpu0_ROB] entry: 164 instr_id: 25964795 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072250
+[cpu0_ROB] entry: 165 instr_id: 25964796 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072250
+[cpu0_ROB] entry: 166 instr_id: 25964797 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072250
+[cpu0_ROB] entry: 167 instr_id: 25964798 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072250
+[cpu0_ROB] entry: 168 instr_id: 25964799 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072250
+[cpu0_ROB] entry: 169 instr_id: 25964800 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072251
+[cpu0_ROB] entry: 170 instr_id: 25964801 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072251
+[cpu0_ROB] entry: 171 instr_id: 25964802 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072251
+[cpu0_ROB] entry: 172 instr_id: 25964803 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072251
+[cpu0_ROB] entry: 173 instr_id: 25964804 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072252
+[cpu0_ROB] entry: 174 instr_id: 25964805 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072271
+[cpu0_ROB] entry: 175 instr_id: 25964806 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072272
+[cpu0_ROB] entry: 176 instr_id: 25964807 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072273
+[cpu0_ROB] entry: 177 instr_id: 25964808 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072273
+[cpu0_ROB] entry: 178 instr_id: 25964809 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072273
+[cpu0_ROB] entry: 179 instr_id: 25964810 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072274
+[cpu0_ROB] entry: 180 instr_id: 25964811 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072274
+[cpu0_ROB] entry: 181 instr_id: 25964812 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072274
+[cpu0_ROB] entry: 182 instr_id: 25964813 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072274
+[cpu0_ROB] entry: 183 instr_id: 25964814 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072274
+[cpu0_ROB] entry: 184 instr_id: 25964815 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072275
+[cpu0_ROB] entry: 185 instr_id: 25964816 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072275
+[cpu0_ROB] entry: 186 instr_id: 25964817 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072275
+[cpu0_ROB] entry: 187 instr_id: 25964818 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072275
+[cpu0_ROB] entry: 188 instr_id: 25964819 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072275
+[cpu0_ROB] entry: 189 instr_id: 25964820 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072276
+[cpu0_ROB] entry: 190 instr_id: 25964821 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072276
+[cpu0_ROB] entry: 191 instr_id: 25964822 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072276
+[cpu0_ROB] entry: 192 instr_id: 25964823 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072276
+[cpu0_ROB] entry: 193 instr_id: 25964824 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072276
+[cpu0_ROB] entry: 194 instr_id: 25964825 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072277
+[cpu0_ROB] entry: 195 instr_id: 25964826 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072277
+[cpu0_ROB] entry: 196 instr_id: 25964827 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072277
+[cpu0_ROB] entry: 197 instr_id: 25964828 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072277
+[cpu0_ROB] entry: 198 instr_id: 25964829 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072277
+[cpu0_ROB] entry: 199 instr_id: 25964830 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072278
+[cpu0_ROB] entry: 200 instr_id: 25964831 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072278
+[cpu0_ROB] entry: 201 instr_id: 25964832 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072278
+[cpu0_ROB] entry: 202 instr_id: 25964833 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072278
+[cpu0_ROB] entry: 203 instr_id: 25964834 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072278
+[cpu0_ROB] entry: 204 instr_id: 25964835 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072279
+[cpu0_ROB] entry: 205 instr_id: 25964836 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072279
+[cpu0_ROB] entry: 206 instr_id: 25964837 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072279
+[cpu0_ROB] entry: 207 instr_id: 25964838 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072279
+[cpu0_ROB] entry: 208 instr_id: 25964839 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072279
+[cpu0_ROB] entry: 209 instr_id: 25964840 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072280
+[cpu0_ROB] entry: 210 instr_id: 25964841 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072280
+[cpu0_ROB] entry: 211 instr_id: 25964842 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072280
+[cpu0_ROB] entry: 212 instr_id: 25964843 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072280
+[cpu0_ROB] entry: 213 instr_id: 25964844 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072280
+[cpu0_ROB] entry: 214 instr_id: 25964845 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072281
+[cpu0_ROB] entry: 215 instr_id: 25964846 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072281
+[cpu0_ROB] entry: 216 instr_id: 25964847 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072281
+[cpu0_ROB] entry: 217 instr_id: 25964848 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072281
+[cpu0_ROB] entry: 218 instr_id: 25964849 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072281
+[cpu0_ROB] entry: 219 instr_id: 25964850 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072282
+[cpu0_ROB] entry: 220 instr_id: 25964851 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072282
+[cpu0_ROB] entry: 221 instr_id: 25964852 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072282
+[cpu0_ROB] entry: 222 instr_id: 25964853 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072282
+[cpu0_ROB] entry: 223 instr_id: 25964854 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072282
+[cpu0_ROB] entry: 224 instr_id: 25964855 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072283
+[cpu0_ROB] entry: 225 instr_id: 25964856 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072283
+[cpu0_ROB] entry: 226 instr_id: 25964857 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072283
+[cpu0_ROB] entry: 227 instr_id: 25964858 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072283
+[cpu0_ROB] entry: 228 instr_id: 25964859 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072283
+[cpu0_ROB] entry: 229 instr_id: 25964860 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072284
+[cpu0_ROB] entry: 230 instr_id: 25964861 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072284
+[cpu0_ROB] entry: 231 instr_id: 25964862 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072285
+[cpu0_ROB] entry: 232 instr_id: 25964863 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072285
+[cpu0_ROB] entry: 233 instr_id: 25964864 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072285
+[cpu0_ROB] entry: 234 instr_id: 25964865 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072286
+[cpu0_ROB] entry: 235 instr_id: 25964866 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072286
+[cpu0_ROB] entry: 236 instr_id: 25964867 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072286
+[cpu0_ROB] entry: 237 instr_id: 25964868 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072286
+[cpu0_ROB] entry: 238 instr_id: 25964869 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072286
+[cpu0_ROB] entry: 239 instr_id: 25964870 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072287
+[cpu0_ROB] entry: 240 instr_id: 25964871 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072287
+[cpu0_ROB] entry: 241 instr_id: 25964872 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072287
+[cpu0_ROB] entry: 242 instr_id: 25964873 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072287
+[cpu0_ROB] entry: 243 instr_id: 25964874 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072287
+[cpu0_ROB] entry: 244 instr_id: 25964875 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072288
+[cpu0_ROB] entry: 245 instr_id: 25964876 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072288
+[cpu0_ROB] entry: 246 instr_id: 25964877 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072288
+[cpu0_ROB] entry: 247 instr_id: 25964878 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072288
+[cpu0_ROB] entry: 248 instr_id: 25964879 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072288
+[cpu0_ROB] entry: 249 instr_id: 25964880 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072289
+[cpu0_ROB] entry: 250 instr_id: 25964881 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072289
+[cpu0_ROB] entry: 251 instr_id: 25964882 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072289
+[cpu0_ROB] entry: 252 instr_id: 25964883 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072289
+[cpu0_ROB] entry: 253 instr_id: 25964884 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072289
+[cpu0_ROB] entry: 254 instr_id: 25964885 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072290
+[cpu0_ROB] entry: 255 instr_id: 25964886 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072290
+[cpu0_ROB] entry: 256 instr_id: 25964887 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072290
+[cpu0_ROB] entry: 257 instr_id: 25964888 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072290
+[cpu0_ROB] entry: 258 instr_id: 25964889 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072290
+[cpu0_ROB] entry: 259 instr_id: 25964890 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072291
+[cpu0_ROB] entry: 260 instr_id: 25964891 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072291
+[cpu0_ROB] entry: 261 instr_id: 25964892 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072291
+[cpu0_ROB] entry: 262 instr_id: 25964893 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072291
+[cpu0_ROB] entry: 263 instr_id: 25964894 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072291
+[cpu0_ROB] entry: 264 instr_id: 25964895 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072292
+[cpu0_ROB] entry: 265 instr_id: 25964896 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072292
+[cpu0_ROB] entry: 266 instr_id: 25964897 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072292
+[cpu0_ROB] entry: 267 instr_id: 25964898 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072319
+[cpu0_ROB] entry: 268 instr_id: 25964899 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072320
+[cpu0_ROB] entry: 269 instr_id: 25964900 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072321
+[cpu0_ROB] entry: 270 instr_id: 25964901 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072321
+[cpu0_ROB] entry: 271 instr_id: 25964902 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072321
+[cpu0_ROB] entry: 272 instr_id: 25964903 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072321
+[cpu0_ROB] entry: 273 instr_id: 25964904 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072321
+[cpu0_ROB] entry: 274 instr_id: 25964905 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072322
+[cpu0_ROB] entry: 275 instr_id: 25964906 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072322
+[cpu0_ROB] entry: 276 instr_id: 25964907 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072322
+[cpu0_ROB] entry: 277 instr_id: 25964908 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072322
+[cpu0_ROB] entry: 278 instr_id: 25964909 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072322
+[cpu0_ROB] entry: 279 instr_id: 25964910 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072323
+[cpu0_ROB] entry: 280 instr_id: 25964911 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072323
+[cpu0_ROB] entry: 281 instr_id: 25964912 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072323
+[cpu0_ROB] entry: 282 instr_id: 25964913 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072323
+[cpu0_ROB] entry: 283 instr_id: 25964914 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072324
+[cpu0_ROB] entry: 284 instr_id: 25964915 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072335
+[cpu0_ROB] entry: 285 instr_id: 25964916 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072336
+[cpu0_ROB] entry: 286 instr_id: 25964917 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072337
+[cpu0_ROB] entry: 287 instr_id: 25964918 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072337
+[cpu0_ROB] entry: 288 instr_id: 25964919 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072337
+[cpu0_ROB] entry: 289 instr_id: 25964920 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072338
+[cpu0_ROB] entry: 290 instr_id: 25964921 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072338
+[cpu0_ROB] entry: 291 instr_id: 25964922 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072338
+[cpu0_ROB] entry: 292 instr_id: 25964923 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072338
+[cpu0_ROB] entry: 293 instr_id: 25964924 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072338
+[cpu0_ROB] entry: 294 instr_id: 25964925 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072339
+[cpu0_ROB] entry: 295 instr_id: 25964926 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072339
+[cpu0_ROB] entry: 296 instr_id: 25964927 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072339
+[cpu0_ROB] entry: 297 instr_id: 25964928 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072339
+[cpu0_ROB] entry: 298 instr_id: 25964929 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072339
+[cpu0_ROB] entry: 299 instr_id: 25964930 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072340
+[cpu0_ROB] entry: 300 instr_id: 25964931 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072340
+[cpu0_ROB] entry: 301 instr_id: 25964932 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072340
+[cpu0_ROB] entry: 302 instr_id: 25964933 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072340
+[cpu0_ROB] entry: 303 instr_id: 25964934 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072341
+[cpu0_ROB] entry: 304 instr_id: 25964935 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072341
+[cpu0_ROB] entry: 305 instr_id: 25964936 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072341
+[cpu0_ROB] entry: 306 instr_id: 25964937 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072341
+[cpu0_ROB] entry: 307 instr_id: 25964938 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072341
+[cpu0_ROB] entry: 308 instr_id: 25964939 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 0 event: 13072342
+[cpu0_ROB] entry: 309 instr_id: 25964940 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072342
+[cpu0_ROB] entry: 310 instr_id: 25964941 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072342
+[cpu0_ROB] entry: 311 instr_id: 25964942 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072342
+[cpu0_ROB] entry: 312 instr_id: 25964943 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072342
+[cpu0_ROB] entry: 313 instr_id: 25964944 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072343
+[cpu0_ROB] entry: 314 instr_id: 25964945 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072343
+[cpu0_ROB] entry: 315 instr_id: 25964946 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072343
+[cpu0_ROB] entry: 316 instr_id: 25964947 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072343
+[cpu0_ROB] entry: 317 instr_id: 25964948 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072343
+[cpu0_ROB] entry: 318 instr_id: 25964949 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072344
+[cpu0_ROB] entry: 319 instr_id: 25964950 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072344
+[cpu0_ROB] entry: 320 instr_id: 25964951 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072344
+[cpu0_ROB] entry: 321 instr_id: 25964952 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072344
+[cpu0_ROB] entry: 322 instr_id: 25964953 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 2 num_mem_ops: 1 event: 13072344
+[cpu0_ROB] entry: 323 instr_id: 25964954 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072345
+[cpu0_ROB] entry: 324 instr_id: 25964955 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072345
+[cpu0_ROB] entry: 325 instr_id: 25964956 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072345
+[cpu0_ROB] entry: 326 instr_id: 25964957 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072345
+[cpu0_ROB] entry: 327 instr_id: 25964958 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072345
+[cpu0_ROB] entry: 328 instr_id: 25964959 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072346
+[cpu0_ROB] entry: 329 instr_id: 25964960 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072346
+[cpu0_ROB] entry: 330 instr_id: 25964961 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072346
+[cpu0_ROB] entry: 331 instr_id: 25964962 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072346
+[cpu0_ROB] entry: 332 instr_id: 25964963 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072346
+[cpu0_ROB] entry: 333 instr_id: 25964964 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072347
+[cpu0_ROB] entry: 334 instr_id: 25964965 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072347
+[cpu0_ROB] entry: 335 instr_id: 25964966 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072347
+[cpu0_ROB] entry: 336 instr_id: 25964967 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072347
+[cpu0_ROB] entry: 337 instr_id: 25964968 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072347
+[cpu0_ROB] entry: 338 instr_id: 25964969 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072348
+[cpu0_ROB] entry: 339 instr_id: 25964970 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072362
+[cpu0_ROB] entry: 340 instr_id: 25964971 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072363
+[cpu0_ROB] entry: 341 instr_id: 25964972 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072364
+[cpu0_ROB] entry: 342 instr_id: 25964973 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 1 num_mem_ops: 0 event: 13072364
+[cpu0_ROB] entry: 343 instr_id: 25964974 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072364
+[cpu0_ROB] entry: 344 instr_id: 25964975 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072365
+[cpu0_ROB] entry: 345 instr_id: 25964976 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072365
+[cpu0_ROB] entry: 346 instr_id: 25964977 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072365
+[cpu0_ROB] entry: 347 instr_id: 25964978 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072365
+[cpu0_ROB] entry: 348 instr_id: 25964979 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 3 num_mem_ops: 1 event: 13072365
+[cpu0_ROB] entry: 349 instr_id: 25964980 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 1 event: 13072366
+[cpu0_ROB] entry: 350 instr_id: 25964981 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072366
+[cpu0_ROB] entry: 351 instr_id: 25964982 fetch_issued: true fetch_completed: true scheduled: false executed: false completed: false num_reg_dependent: 0 num_mem_ops: 0 event: 13072366
+
+Frontend Register Allocation Table        Backend Register Allocation Table
+Arch reg:   0    Phys reg:  -1            Arch reg:   0    Phys reg:  -1
+Arch reg:   1    Phys reg:  -1            Arch reg:   1    Phys reg:  -1
+Arch reg:   2    Phys reg:  -1            Arch reg:   2    Phys reg:  -1
+Arch reg:   3    Phys reg:  20            Arch reg:   3    Phys reg:  86
+Arch reg:   4    Phys reg:  79            Arch reg:   4    Phys reg:  79
+Arch reg:   5    Phys reg:  39            Arch reg:   5    Phys reg:  67
+Arch reg:   6    Phys reg:  16            Arch reg:   6    Phys reg:  16
+Arch reg:   7    Phys reg:  77            Arch reg:   7    Phys reg: 119
+Arch reg:   8    Phys reg: 123            Arch reg:   8    Phys reg:  14
+Arch reg:   9    Phys reg:  88            Arch reg:   9    Phys reg:  88
+Arch reg:  10    Phys reg:   7            Arch reg:  10    Phys reg: 118
+Arch reg:  11    Phys reg:  72            Arch reg:  11    Phys reg:  72
+Arch reg:  12    Phys reg:  17            Arch reg:  12    Phys reg:  17
+Arch reg:  13    Phys reg:  12            Arch reg:  13    Phys reg:  12
+Arch reg:  14    Phys reg:  -1            Arch reg:  14    Phys reg:  -1
+Arch reg:  15    Phys reg:  -1            Arch reg:  15    Phys reg:  -1
+Arch reg:  16    Phys reg:  -1            Arch reg:  16    Phys reg:  -1
+Arch reg:  17    Phys reg:  -1            Arch reg:  17    Phys reg:  -1
+Arch reg:  18    Phys reg:  28            Arch reg:  18    Phys reg:  28
+Arch reg:  19    Phys reg:  -1            Arch reg:  19    Phys reg:  -1
+Arch reg:  20    Phys reg:  -1            Arch reg:  20    Phys reg:  -1
+Arch reg:  21    Phys reg:  -1            Arch reg:  21    Phys reg:  -1
+Arch reg:  22    Phys reg:  -1            Arch reg:  22    Phys reg:  -1
+Arch reg:  23    Phys reg:  -1            Arch reg:  23    Phys reg:  -1
+Arch reg:  24    Phys reg:  -1            Arch reg:  24    Phys reg:  -1
+Arch reg:  25    Phys reg:  92            Arch reg:  25    Phys reg:  58
+Arch reg:  26    Phys reg:  84            Arch reg:  26    Phys reg: 114
+Arch reg:  27    Phys reg: 124            Arch reg:  27    Phys reg: 124
+Arch reg:  28    Phys reg:  -1            Arch reg:  28    Phys reg:  -1
+Arch reg:  29    Phys reg:  -1            Arch reg:  29    Phys reg:  -1
+Arch reg:  30    Phys reg:  -1            Arch reg:  30    Phys reg:  -1
+Arch reg:  31    Phys reg:  -1            Arch reg:  31    Phys reg:  -1
+Arch reg:  32    Phys reg:  90            Arch reg:  32    Phys reg:  85
+Arch reg:  33    Phys reg:  -1            Arch reg:  33    Phys reg:  -1
+Arch reg:  34    Phys reg:  -1            Arch reg:  34    Phys reg:  -1
+Arch reg:  35    Phys reg:  -1            Arch reg:  35    Phys reg:  -1
+Arch reg:  36    Phys reg:  -1            Arch reg:  36    Phys reg:  -1
+Arch reg:  37    Phys reg:  -1            Arch reg:  37    Phys reg:  -1
+Arch reg:  38    Phys reg:  -1            Arch reg:  38    Phys reg:  -1
+Arch reg:  39    Phys reg:  -1            Arch reg:  39    Phys reg:  -1
+Arch reg:  40    Phys reg:  -1            Arch reg:  40    Phys reg:  -1
+Arch reg:  41    Phys reg:  -1            Arch reg:  41    Phys reg:  -1
+Arch reg:  42    Phys reg:  -1            Arch reg:  42    Phys reg:  -1
+Arch reg:  43    Phys reg:  -1            Arch reg:  43    Phys reg:  -1
+Arch reg:  44    Phys reg:  -1            Arch reg:  44    Phys reg:  -1
+Arch reg:  45    Phys reg:  -1            Arch reg:  45    Phys reg:  -1
+Arch reg:  46    Phys reg:  -1            Arch reg:  46    Phys reg:  -1
+Arch reg:  47    Phys reg:  76            Arch reg:  47    Phys reg:  49
+Arch reg:  48    Phys reg:  -1            Arch reg:  48    Phys reg:  -1
+Arch reg:  49    Phys reg:  -1            Arch reg:  49    Phys reg:  -1
+Arch reg:  50    Phys reg:  -1            Arch reg:  50    Phys reg:  -1
+Arch reg:  51    Phys reg:  -1            Arch reg:  51    Phys reg:  -1
+Arch reg:  52    Phys reg:  -1            Arch reg:  52    Phys reg:  -1
+Arch reg:  53    Phys reg:  -1            Arch reg:  53    Phys reg:  -1
+Arch reg:  54    Phys reg:  22            Arch reg:  54    Phys reg: 127
+Arch reg:  55    Phys reg: 105            Arch reg:  55    Phys reg: 100
+Arch reg:  56    Phys reg: 112            Arch reg:  56    Phys reg:  74
+Arch reg:  57    Phys reg:  -1            Arch reg:  57    Phys reg:  -1
+Arch reg:  58    Phys reg:  -1            Arch reg:  58    Phys reg:  -1
+Arch reg:  59    Phys reg:  -1            Arch reg:  59    Phys reg:  -1
+Arch reg:  60    Phys reg:  -1            Arch reg:  60    Phys reg:  -1
+Arch reg:  61    Phys reg:  -1            Arch reg:  61    Phys reg:  -1
+Arch reg:  62    Phys reg:  -1            Arch reg:  62    Phys reg:  -1
+Arch reg:  63    Phys reg:  -1            Arch reg:  63    Phys reg:  -1
+Arch reg:  64    Phys reg:  -1            Arch reg:  64    Phys reg:  -1
+Arch reg:  65    Phys reg:  -1            Arch reg:  65    Phys reg:  -1
+Arch reg:  66    Phys reg:  -1            Arch reg:  66    Phys reg:  -1
+Arch reg:  67    Phys reg:  43            Arch reg:  67    Phys reg:  43
+Arch reg:  68    Phys reg:  -1            Arch reg:  68    Phys reg:  -1
+Arch reg:  69    Phys reg:  -1            Arch reg:  69    Phys reg:  -1
+Arch reg:  70    Phys reg:  -1            Arch reg:  70    Phys reg:  -1
+Arch reg:  71    Phys reg:  -1            Arch reg:  71    Phys reg:  -1
+Arch reg:  72    Phys reg:  -1            Arch reg:  72    Phys reg:  -1
+Arch reg:  73    Phys reg:  -1            Arch reg:  73    Phys reg:  -1
+Arch reg:  74    Phys reg:  -1            Arch reg:  74    Phys reg:  -1
+Arch reg:  75    Phys reg:  -1            Arch reg:  75    Phys reg:  -1
+Arch reg:  76    Phys reg:  -1            Arch reg:  76    Phys reg:  -1
+Arch reg:  77    Phys reg:  -1            Arch reg:  77    Phys reg:  -1
+Arch reg:  78    Phys reg:  -1            Arch reg:  78    Phys reg:  -1
+Arch reg:  79    Phys reg:  -1            Arch reg:  79    Phys reg:  -1
+Arch reg:  80    Phys reg:  -1            Arch reg:  80    Phys reg:  -1
+Arch reg:  81    Phys reg:  -1            Arch reg:  81    Phys reg:  -1
+Arch reg:  82    Phys reg:  -1            Arch reg:  82    Phys reg:  -1
+Arch reg:  83    Phys reg:  -1            Arch reg:  83    Phys reg:  -1
+Arch reg:  84    Phys reg:  -1            Arch reg:  84    Phys reg:  -1
+Arch reg:  85    Phys reg:  -1            Arch reg:  85    Phys reg:  -1
+Arch reg:  86    Phys reg:  -1            Arch reg:  86    Phys reg:  -1
+Arch reg:  87    Phys reg:  -1            Arch reg:  87    Phys reg:  -1
+Arch reg:  88    Phys reg:  -1            Arch reg:  88    Phys reg:  -1
+Arch reg:  89    Phys reg:  -1            Arch reg:  89    Phys reg:  -1
+Arch reg:  90    Phys reg:  -1            Arch reg:  90    Phys reg:  -1
+Arch reg:  91    Phys reg:  -1            Arch reg:  91    Phys reg:  -1
+Arch reg:  92    Phys reg:  -1            Arch reg:  92    Phys reg:  -1
+Arch reg:  93    Phys reg:  -1            Arch reg:  93    Phys reg:  -1
+Arch reg:  94    Phys reg:  -1            Arch reg:  94    Phys reg:  -1
+Arch reg:  95    Phys reg:  -1            Arch reg:  95    Phys reg:  -1
+Arch reg:  96    Phys reg:  -1            Arch reg:  96    Phys reg:  -1
+Arch reg:  97    Phys reg:  -1            Arch reg:  97    Phys reg:  -1
+Arch reg:  98    Phys reg:  -1            Arch reg:  98    Phys reg:  -1
+Arch reg:  99    Phys reg:  -1            Arch reg:  99    Phys reg:  -1
+Arch reg: 100    Phys reg:  -1            Arch reg: 100    Phys reg:  -1
+Arch reg: 101    Phys reg:  -1            Arch reg: 101    Phys reg:  -1
+Arch reg: 102    Phys reg:  -1            Arch reg: 102    Phys reg:  -1
+Arch reg: 103    Phys reg:  -1            Arch reg: 103    Phys reg:  -1
+Arch reg: 104    Phys reg:  -1            Arch reg: 104    Phys reg:  -1
+Arch reg: 105    Phys reg:  -1            Arch reg: 105    Phys reg:  -1
+Arch reg: 106    Phys reg:  -1            Arch reg: 106    Phys reg:  -1
+Arch reg: 107    Phys reg:  -1            Arch reg: 107    Phys reg:  -1
+Arch reg: 108    Phys reg:  -1            Arch reg: 108    Phys reg:  -1
+Arch reg: 109    Phys reg:  -1            Arch reg: 109    Phys reg:  -1
+Arch reg: 110    Phys reg:  -1            Arch reg: 110    Phys reg:  -1
+Arch reg: 111    Phys reg:  -1            Arch reg: 111    Phys reg:  -1
+Arch reg: 112    Phys reg:  -1            Arch reg: 112    Phys reg:  -1
+Arch reg: 113    Phys reg:  -1            Arch reg: 113    Phys reg:  -1
+Arch reg: 114    Phys reg:  -1            Arch reg: 114    Phys reg:  -1
+Arch reg: 115    Phys reg:  -1            Arch reg: 115    Phys reg:  -1
+Arch reg: 116    Phys reg:  -1            Arch reg: 116    Phys reg:  -1
+Arch reg: 117    Phys reg:  -1            Arch reg: 117    Phys reg:  -1
+Arch reg: 118    Phys reg:  -1            Arch reg: 118    Phys reg:  -1
+Arch reg: 119    Phys reg:  -1            Arch reg: 119    Phys reg:  -1
+Arch reg: 120    Phys reg:  -1            Arch reg: 120    Phys reg:  -1
+Arch reg: 121    Phys reg:  -1            Arch reg: 121    Phys reg:  -1
+Arch reg: 122    Phys reg:  -1            Arch reg: 122    Phys reg:  -1
+Arch reg: 123    Phys reg:  -1            Arch reg: 123    Phys reg:  -1
+Arch reg: 124    Phys reg:  -1            Arch reg: 124    Phys reg:  -1
+Arch reg: 125    Phys reg:  -1            Arch reg: 125    Phys reg:  -1
+Arch reg: 126    Phys reg:  -1            Arch reg: 126    Phys reg:  -1
+Arch reg: 127    Phys reg:  -1            Arch reg: 127    Phys reg:  -1
+Arch reg: 128    Phys reg:  -1            Arch reg: 128    Phys reg:  -1
+Arch reg: 129    Phys reg:  -1            Arch reg: 129    Phys reg:  -1
+Arch reg: 130    Phys reg:  -1            Arch reg: 130    Phys reg:  -1
+Arch reg: 131    Phys reg:  -1            Arch reg: 131    Phys reg:  -1
+Arch reg: 132    Phys reg:  -1            Arch reg: 132    Phys reg:  -1
+Arch reg: 133    Phys reg:  -1            Arch reg: 133    Phys reg:  -1
+Arch reg: 134    Phys reg:  -1            Arch reg: 134    Phys reg:  -1
+Arch reg: 135    Phys reg:  -1            Arch reg: 135    Phys reg:  -1
+Arch reg: 136    Phys reg:  -1            Arch reg: 136    Phys reg:  -1
+Arch reg: 137    Phys reg:  -1            Arch reg: 137    Phys reg:  -1
+Arch reg: 138    Phys reg:  -1            Arch reg: 138    Phys reg:  -1
+Arch reg: 139    Phys reg:  -1            Arch reg: 139    Phys reg:  -1
+Arch reg: 140    Phys reg:  -1            Arch reg: 140    Phys reg:  -1
+Arch reg: 141    Phys reg:  -1            Arch reg: 141    Phys reg:  -1
+Arch reg: 142    Phys reg:  -1            Arch reg: 142    Phys reg:  -1
+Arch reg: 143    Phys reg:  -1            Arch reg: 143    Phys reg:  -1
+Arch reg: 144    Phys reg:  -1            Arch reg: 144    Phys reg:  -1
+Arch reg: 145    Phys reg:  -1            Arch reg: 145    Phys reg:  -1
+Arch reg: 146    Phys reg:  -1            Arch reg: 146    Phys reg:  -1
+Arch reg: 147    Phys reg:  -1            Arch reg: 147    Phys reg:  -1
+Arch reg: 148    Phys reg:  -1            Arch reg: 148    Phys reg:  -1
+Arch reg: 149    Phys reg:  -1            Arch reg: 149    Phys reg:  -1
+Arch reg: 150    Phys reg:  -1            Arch reg: 150    Phys reg:  -1
+Arch reg: 151    Phys reg:  -1            Arch reg: 151    Phys reg:  -1
+Arch reg: 152    Phys reg:  -1            Arch reg: 152    Phys reg:  -1
+Arch reg: 153    Phys reg:  -1            Arch reg: 153    Phys reg:  -1
+Arch reg: 154    Phys reg:  -1            Arch reg: 154    Phys reg:  -1
+Arch reg: 155    Phys reg:  -1            Arch reg: 155    Phys reg:  -1
+Arch reg: 156    Phys reg:  -1            Arch reg: 156    Phys reg:  -1
+Arch reg: 157    Phys reg:  -1            Arch reg: 157    Phys reg:  -1
+Arch reg: 158    Phys reg:  -1            Arch reg: 158    Phys reg:  -1
+Arch reg: 159    Phys reg:  -1            Arch reg: 159    Phys reg:  -1
+Arch reg: 160    Phys reg:  -1            Arch reg: 160    Phys reg:  -1
+Arch reg: 161    Phys reg:  -1            Arch reg: 161    Phys reg:  -1
+Arch reg: 162    Phys reg:  -1            Arch reg: 162    Phys reg:  -1
+Arch reg: 163    Phys reg:  -1            Arch reg: 163    Phys reg:  -1
+Arch reg: 164    Phys reg:  -1            Arch reg: 164    Phys reg:  -1
+Arch reg: 165    Phys reg:  -1            Arch reg: 165    Phys reg:  -1
+Arch reg: 166    Phys reg:  -1            Arch reg: 166    Phys reg:  -1
+Arch reg: 167    Phys reg:  -1            Arch reg: 167    Phys reg:  -1
+Arch reg: 168    Phys reg:  -1            Arch reg: 168    Phys reg:  -1
+Arch reg: 169    Phys reg:  -1            Arch reg: 169    Phys reg:  -1
+Arch reg: 170    Phys reg:  -1            Arch reg: 170    Phys reg:  -1
+Arch reg: 171    Phys reg:  -1            Arch reg: 171    Phys reg:  -1
+Arch reg: 172    Phys reg:  -1            Arch reg: 172    Phys reg:  -1
+Arch reg: 173    Phys reg:  -1            Arch reg: 173    Phys reg:  -1
+Arch reg: 174    Phys reg:  -1            Arch reg: 174    Phys reg:  -1
+Arch reg: 175    Phys reg:  -1            Arch reg: 175    Phys reg:  -1
+Arch reg: 176    Phys reg:  -1            Arch reg: 176    Phys reg:  -1
+Arch reg: 177    Phys reg:  -1            Arch reg: 177    Phys reg:  -1
+Arch reg: 178    Phys reg:  -1            Arch reg: 178    Phys reg:  -1
+Arch reg: 179    Phys reg:  -1            Arch reg: 179    Phys reg:  -1
+Arch reg: 180    Phys reg:  -1            Arch reg: 180    Phys reg:  -1
+Arch reg: 181    Phys reg:  -1            Arch reg: 181    Phys reg:  -1
+Arch reg: 182    Phys reg:  -1            Arch reg: 182    Phys reg:  -1
+Arch reg: 183    Phys reg:  -1            Arch reg: 183    Phys reg:  -1
+Arch reg: 184    Phys reg:  -1            Arch reg: 184    Phys reg:  -1
+Arch reg: 185    Phys reg:  -1            Arch reg: 185    Phys reg:  -1
+Arch reg: 186    Phys reg:  -1            Arch reg: 186    Phys reg:  -1
+Arch reg: 187    Phys reg:  -1            Arch reg: 187    Phys reg:  -1
+Arch reg: 188    Phys reg:  -1            Arch reg: 188    Phys reg:  -1
+Arch reg: 189    Phys reg:  -1            Arch reg: 189    Phys reg:  -1
+Arch reg: 190    Phys reg:  -1            Arch reg: 190    Phys reg:  -1
+Arch reg: 191    Phys reg:  -1            Arch reg: 191    Phys reg:  -1
+Arch reg: 192    Phys reg:  -1            Arch reg: 192    Phys reg:  -1
+Arch reg: 193    Phys reg:  -1            Arch reg: 193    Phys reg:  -1
+Arch reg: 194    Phys reg:  -1            Arch reg: 194    Phys reg:  -1
+Arch reg: 195    Phys reg:  -1            Arch reg: 195    Phys reg:  -1
+Arch reg: 196    Phys reg:  -1            Arch reg: 196    Phys reg:  -1
+Arch reg: 197    Phys reg:  -1            Arch reg: 197    Phys reg:  -1
+Arch reg: 198    Phys reg:  -1            Arch reg: 198    Phys reg:  -1
+Arch reg: 199    Phys reg:  -1            Arch reg: 199    Phys reg:  -1
+Arch reg: 200    Phys reg:  -1            Arch reg: 200    Phys reg:  -1
+Arch reg: 201    Phys reg:  -1            Arch reg: 201    Phys reg:  -1
+Arch reg: 202    Phys reg:  -1            Arch reg: 202    Phys reg:  -1
+Arch reg: 203    Phys reg:  -1            Arch reg: 203    Phys reg:  -1
+Arch reg: 204    Phys reg:  -1            Arch reg: 204    Phys reg:  -1
+Arch reg: 205    Phys reg:  -1            Arch reg: 205    Phys reg:  -1
+Arch reg: 206    Phys reg:  -1            Arch reg: 206    Phys reg:  -1
+Arch reg: 207    Phys reg:  -1            Arch reg: 207    Phys reg:  -1
+Arch reg: 208    Phys reg:  -1            Arch reg: 208    Phys reg:  -1
+Arch reg: 209    Phys reg:  -1            Arch reg: 209    Phys reg:  -1
+Arch reg: 210    Phys reg:  -1            Arch reg: 210    Phys reg:  -1
+Arch reg: 211    Phys reg:  -1            Arch reg: 211    Phys reg:  -1
+Arch reg: 212    Phys reg:  -1            Arch reg: 212    Phys reg:  -1
+Arch reg: 213    Phys reg:  -1            Arch reg: 213    Phys reg:  -1
+Arch reg: 214    Phys reg:  -1            Arch reg: 214    Phys reg:  -1
+Arch reg: 215    Phys reg:  -1            Arch reg: 215    Phys reg:  -1
+Arch reg: 216    Phys reg:  -1            Arch reg: 216    Phys reg:  -1
+Arch reg: 217    Phys reg:  -1            Arch reg: 217    Phys reg:  -1
+Arch reg: 218    Phys reg:  -1            Arch reg: 218    Phys reg:  -1
+Arch reg: 219    Phys reg:  -1            Arch reg: 219    Phys reg:  -1
+Arch reg: 220    Phys reg:  -1            Arch reg: 220    Phys reg:  -1
+Arch reg: 221    Phys reg:  -1            Arch reg: 221    Phys reg:  -1
+Arch reg: 222    Phys reg:  -1            Arch reg: 222    Phys reg:  -1
+Arch reg: 223    Phys reg:  -1            Arch reg: 223    Phys reg:  -1
+Arch reg: 224    Phys reg:  -1            Arch reg: 224    Phys reg:  -1
+Arch reg: 225    Phys reg:  -1            Arch reg: 225    Phys reg:  -1
+Arch reg: 226    Phys reg:  -1            Arch reg: 226    Phys reg:  -1
+Arch reg: 227    Phys reg:  -1            Arch reg: 227    Phys reg:  -1
+Arch reg: 228    Phys reg:  -1            Arch reg: 228    Phys reg:  -1
+Arch reg: 229    Phys reg:  -1            Arch reg: 229    Phys reg:  -1
+Arch reg: 230    Phys reg:  -1            Arch reg: 230    Phys reg:  -1
+Arch reg: 231    Phys reg:  -1            Arch reg: 231    Phys reg:  -1
+Arch reg: 232    Phys reg:  -1            Arch reg: 232    Phys reg:  -1
+Arch reg: 233    Phys reg:  -1            Arch reg: 233    Phys reg:  -1
+Arch reg: 234    Phys reg:  -1            Arch reg: 234    Phys reg:  -1
+Arch reg: 235    Phys reg:  -1            Arch reg: 235    Phys reg:  -1
+Arch reg: 236    Phys reg:  -1            Arch reg: 236    Phys reg:  -1
+Arch reg: 237    Phys reg:  -1            Arch reg: 237    Phys reg:  -1
+Arch reg: 238    Phys reg:  -1            Arch reg: 238    Phys reg:  -1
+Arch reg: 239    Phys reg:  -1            Arch reg: 239    Phys reg:  -1
+Arch reg: 240    Phys reg:  -1            Arch reg: 240    Phys reg:  -1
+Arch reg: 241    Phys reg:  -1            Arch reg: 241    Phys reg:  -1
+Arch reg: 242    Phys reg:  -1            Arch reg: 242    Phys reg:  -1
+Arch reg: 243    Phys reg:  -1            Arch reg: 243    Phys reg:  -1
+Arch reg: 244    Phys reg:  -1            Arch reg: 244    Phys reg:  -1
+Arch reg: 245    Phys reg:  -1            Arch reg: 245    Phys reg:  -1
+Arch reg: 246    Phys reg:  -1            Arch reg: 246    Phys reg:  -1
+Arch reg: 247    Phys reg:  -1            Arch reg: 247    Phys reg:  -1
+Arch reg: 248    Phys reg:  -1            Arch reg: 248    Phys reg:  -1
+Arch reg: 249    Phys reg:  -1            Arch reg: 249    Phys reg:  -1
+Arch reg: 250    Phys reg:  -1            Arch reg: 250    Phys reg:  -1
+Arch reg: 251    Phys reg:  -1            Arch reg: 251    Phys reg:  -1
+Arch reg: 252    Phys reg:  -1            Arch reg: 252    Phys reg:  -1
+Arch reg: 253    Phys reg:  -1            Arch reg: 253    Phys reg:  -1
+Arch reg: 254    Phys reg:  -1            Arch reg: 254    Phys reg:  -1
+Arch reg: 255    Phys reg:  -1            Arch reg: 255    Phys reg:  -1
+
+Physical Register File
+Phys reg:   0	 Arch reg:  10	 Producer: 25964648	 Valid: false	 Busy: true
+Phys reg:   1	 Arch reg:  25	 Producer: 25964715	 Valid: true	 Busy: true
+Phys reg:   2	 Arch reg:  25	 Producer: 25964632	 Valid: false	 Busy: true
+Phys reg:   3	 Arch reg:  54	 Producer: 25964696	 Valid: true	 Busy: true
+Phys reg:   4	 Arch reg:  25	 Producer: 25964684	 Valid: true	 Busy: true
+Phys reg:   5	 Arch reg:  56	 Producer: 25964657	 Valid: false	 Busy: true
+Phys reg:   6	 Arch reg:  54	 Producer: 25964683	 Valid: true	 Busy: true
+Phys reg:   7	 Arch reg:  10	 Producer: 25964716	 Valid: false	 Busy: true
+Phys reg:   8	 Arch reg:  25	 Producer: 25964666	 Valid: true	 Busy: true
+Phys reg:   9	 Arch reg:  56	 Producer: 25964687	 Valid: false	 Busy: true
+Phys reg:  10	 Arch reg:  25	 Producer: 25964700	 Valid: false	 Busy: true
+Phys reg:  11	 Arch reg:  25	 Producer: 25964639	 Valid: true	 Busy: true
+Phys reg:  12	 Arch reg:  13	 Producer: 25928624	 Valid: true	 Busy: true
+Phys reg:  13	 Arch reg:  25	 Producer: 25964642	 Valid: true	 Busy: true
+Phys reg:  14	 Arch reg:   8	 Producer: 25964630	 Valid: true	 Busy: true
+Phys reg:  15	 Arch reg:  56	 Producer: 25964638	 Valid: true	 Busy: true
+Phys reg:  16	 Arch reg:   6	 Producer: 0	 Valid: true	 Busy: true
+Phys reg:  17	 Arch reg:  12	 Producer: 25535049	 Valid: true	 Busy: true
+Phys reg:  18	 Arch reg:  10	 Producer: 25964703	 Valid: false	 Busy: true
+Phys reg:  19	 Arch reg:  32	 Producer: 25964697	 Valid: true	 Busy: true
+Phys reg:  20	 Arch reg:   3	 Producer: 25964706	 Valid: true	 Busy: true
+Phys reg:  21	 Arch reg: 255	 Producer: 0	 Valid: false	 Busy: false
+Phys reg:  22	 Arch reg:  54	 Producer: 25964714	 Valid: true	 Busy: true
+Phys reg:  23	 Arch reg:  25	 Producer: 25964668	 Valid: false	 Busy: true
+Phys reg:  24	 Arch reg:  10	 Producer: 25964691	 Valid: false	 Busy: true
+Phys reg:  25	 Arch reg:  55	 Producer: 25964668	 Valid: false	 Busy: true
+Phys reg:  26	 Arch reg:  25	 Producer: 25964708	 Valid: false	 Busy: true
+Phys reg:  27	 Arch reg:  56	 Producer: 25964652	 Valid: true	 Busy: true
+Phys reg:  28	 Arch reg:  18	 Producer: 25928630	 Valid: true	 Busy: true
+Phys reg:  29	 Arch reg:  25	 Producer: 25964651	 Valid: true	 Busy: true
+Phys reg:  30	 Arch reg:  56	 Producer: 25964712	 Valid: false	 Busy: true
+Phys reg:  31	 Arch reg:   8	 Producer: 25964676	 Valid: false	 Busy: true
+Phys reg:  32	 Arch reg:  25	 Producer: 25964682	 Valid: false	 Busy: true
+Phys reg:  33	 Arch reg:  25	 Producer: 25964674	 Valid: false	 Busy: true
+Phys reg:  34	 Arch reg:  56	 Producer: 25964707	 Valid: false	 Busy: true
+Phys reg:  35	 Arch reg:  56	 Producer: 25964645	 Valid: false	 Busy: true
+Phys reg:  36	 Arch reg:  56	 Producer: 25964656	 Valid: false	 Busy: true
+Phys reg:  37	 Arch reg:  25	 Producer: 25964706	 Valid: true	 Busy: true
+Phys reg:  38	 Arch reg:  25	 Producer: 25964662	 Valid: true	 Busy: true
+Phys reg:  39	 Arch reg:   5	 Producer: 25964689	 Valid: false	 Busy: true
+Phys reg:  40	 Arch reg:  54	 Producer: 25964647	 Valid: true	 Busy: true
+Phys reg:  41	 Arch reg:  56	 Producer: 25964686	 Valid: false	 Busy: true
+Phys reg:  42	 Arch reg:  55	 Producer: 25964653	 Valid: true	 Busy: true
+Phys reg:  43	 Arch reg:  67	 Producer: 25535075	 Valid: true	 Busy: true
+Phys reg:  44	 Arch reg:  32	 Producer: 25964684	 Valid: true	 Busy: true
+Phys reg:  45	 Arch reg:  25	 Producer: 25964653	 Valid: true	 Busy: true
+Phys reg:  46	 Arch reg:  54	 Producer: 25964654	 Valid: true	 Busy: true
+Phys reg:  47	 Arch reg:  25	 Producer: 25964645	 Valid: false	 Busy: true
+Phys reg:  48	 Arch reg:  32	 Producer: 25964642	 Valid: true	 Busy: true
+Phys reg:  49	 Arch reg:  47	 Producer: 25964605	 Valid: true	 Busy: true
+Phys reg:  50	 Arch reg:   3	 Producer: 25964651	 Valid: true	 Busy: true
+Phys reg:  51	 Arch reg:  25	 Producer: 25964687	 Valid: false	 Busy: true
+Phys reg:  52	 Arch reg:  56	 Producer: 25964711	 Valid: false	 Busy: true
+Phys reg:  53	 Arch reg:   8	 Producer: 25964672	 Valid: false	 Busy: true
+Phys reg:  54	 Arch reg:  56	 Producer: 25964681	 Valid: false	 Busy: true
+Phys reg:  55	 Arch reg:  56	 Producer: 25964631	 Valid: false	 Busy: true
+Phys reg:  56	 Arch reg:   8	 Producer: 25964655	 Valid: true	 Busy: true
+Phys reg:  57	 Arch reg:  10	 Producer: 25964669	 Valid: false	 Busy: true
+Phys reg:  58	 Arch reg:  25	 Producer: 25964629	 Valid: true	 Busy: true
+Phys reg:  59	 Arch reg:  10	 Producer: 25964636	 Valid: false	 Busy: true
+Phys reg:  60	 Arch reg:  54	 Producer: 25964670	 Valid: true	 Busy: true
+Phys reg:  61	 Arch reg:  25	 Producer: 25964657	 Valid: false	 Busy: true
+Phys reg:  62	 Arch reg:  56	 Producer: 25964644	 Valid: false	 Busy: true
+Phys reg:  63	 Arch reg:  56	 Producer: 25964650	 Valid: true	 Busy: true
+Phys reg:  64	 Arch reg:  56	 Producer: 25964667	 Valid: false	 Busy: true
+Phys reg:  65	 Arch reg:  32	 Producer: 25964671	 Valid: true	 Busy: true
+Phys reg:  66	 Arch reg:  25	 Producer: 25964667	 Valid: false	 Busy: true
+Phys reg:  67	 Arch reg:   5	 Producer: 25964579	 Valid: true	 Busy: true
+Phys reg:  68	 Arch reg:  25	 Producer: 25964671	 Valid: true	 Busy: true
+Phys reg:  69	 Arch reg:  25	 Producer: 25964652	 Valid: true	 Busy: true
+Phys reg:  70	 Arch reg:  54	 Producer: 25964659	 Valid: true	 Busy: true
+Phys reg:  71	 Arch reg:  47	 Producer: 25964660	 Valid: true	 Busy: true
+Phys reg:  72	 Arch reg:  11	 Producer: 25535057	 Valid: true	 Busy: true
+Phys reg:  73	 Arch reg:  54	 Producer: 25964641	 Valid: true	 Busy: true
+Phys reg:  74	 Arch reg:  56	 Producer: 25964626	 Valid: true	 Busy: true
+Phys reg:  75	 Arch reg:  56	 Producer: 25964705	 Valid: false	 Busy: true
+Phys reg:  76	 Arch reg:  47	 Producer: 25964715	 Valid: true	 Busy: true
+Phys reg:  77	 Arch reg:   7	 Producer: 25964680	 Valid: false	 Busy: true
+Phys reg:  78	 Arch reg:  56	 Producer: 25964674	 Valid: false	 Busy: true
+Phys reg:  79	 Arch reg:   4	 Producer: 25535407	 Valid: true	 Busy: true
+Phys reg:  80	 Arch reg:  56	 Producer: 25964639	 Valid: true	 Busy: true
+Phys reg:  81	 Arch reg:  25	 Producer: 25964694	 Valid: false	 Busy: true
+Phys reg:  82	 Arch reg:  26	 Producer: 25964664	 Valid: true	 Busy: true
+Phys reg:  83	 Arch reg:  56	 Producer: 25964673	 Valid: false	 Busy: true
+Phys reg:  84	 Arch reg:  26	 Producer: 25964719	 Valid: true	 Busy: true
+Phys reg:  85	 Arch reg:  32	 Producer: 25964629	 Valid: true	 Busy: true
+Phys reg:  86	 Arch reg:   3	 Producer: 25964596	 Valid: true	 Busy: true
+Phys reg:  87	 Arch reg:  56	 Producer: 25964665	 Valid: false	 Busy: true
+Phys reg:  88	 Arch reg:   9	 Producer: 25535408	 Valid: true	 Busy: true
+Phys reg:  89	 Arch reg:  54	 Producer: 25964709	 Valid: true	 Busy: true
+Phys reg:  90	 Arch reg:  32	 Producer: 25964721	 Valid: true	 Busy: true
+Phys reg:  91	 Arch reg:   8	 Producer: 25964643	 Valid: true	 Busy: true
+Phys reg:  92	 Arch reg:  25	 Producer: 25964721	 Valid: true	 Busy: true
+Phys reg:  93	 Arch reg:  25	 Producer: 25964640	 Valid: true	 Busy: true
+Phys reg:  94	 Arch reg:  32	 Producer: 25964666	 Valid: true	 Busy: true
+Phys reg:  95	 Arch reg:  55	 Producer: 25964640	 Valid: true	 Busy: true
+Phys reg:  96	 Arch reg:   5	 Producer: 25964634	 Valid: true	 Busy: true
+Phys reg:  97	 Arch reg:  25	 Producer: 25964681	 Valid: false	 Busy: true
+Phys reg:  98	 Arch reg:  54	 Producer: 25964702	 Valid: true	 Busy: true
+Phys reg:  99	 Arch reg:   8	 Producer: 25964685	 Valid: false	 Busy: true
+Phys reg: 100	 Arch reg:  55	 Producer: 25964627	 Valid: true	 Busy: true
+Phys reg: 101	 Arch reg:  54	 Producer: 25964690	 Valid: true	 Busy: true
+Phys reg: 102	 Arch reg:  56	 Producer: 25964693	 Valid: false	 Busy: true
+Phys reg: 103	 Arch reg:  56	 Producer: 25964679	 Valid: false	 Busy: true
+Phys reg: 104	 Arch reg:  25	 Producer: 25964707	 Valid: false	 Busy: true
+Phys reg: 105	 Arch reg:  55	 Producer: 25964708	 Valid: false	 Busy: true
+Phys reg: 106	 Arch reg:  10	 Producer: 25964661	 Valid: false	 Busy: true
+Phys reg: 107	 Arch reg:  25	 Producer: 25964712	 Valid: false	 Busy: true
+Phys reg: 108	 Arch reg:  25	 Producer: 25964717	 Valid: true	 Busy: true
+Phys reg: 109	 Arch reg:  56	 Producer: 25964700	 Valid: false	 Busy: true
+Phys reg: 110	 Arch reg:  25	 Producer: 25964660	 Valid: true	 Busy: true
+Phys reg: 111	 Arch reg:  55	 Producer: 25964695	 Valid: false	 Busy: true
+Phys reg: 112	 Arch reg:  56	 Producer: 25964720	 Valid: false	 Busy: true
+Phys reg: 113	 Arch reg:  56	 Producer: 25964694	 Valid: false	 Busy: true
+Phys reg: 114	 Arch reg:  26	 Producer: 25964609	 Valid: true	 Busy: true
+Phys reg: 115	 Arch reg:  56	 Producer: 25964699	 Valid: false	 Busy: true
+Phys reg: 116	 Arch reg:   8	 Producer: 25964698	 Valid: false	 Busy: true
+Phys reg: 117	 Arch reg:  25	 Producer: 25964695	 Valid: false	 Busy: true
+Phys reg: 118	 Arch reg:  10	 Producer: 25964622	 Valid: true	 Busy: true
+Phys reg: 119	 Arch reg:   7	 Producer: 25964625	 Valid: true	 Busy: true
+Phys reg: 120	 Arch reg:  10	 Producer: 25964677	 Valid: false	 Busy: true
+Phys reg: 121	 Arch reg:  25	 Producer: 25964697	 Valid: true	 Busy: true
+Phys reg: 122	 Arch reg:  56	 Producer: 25964632	 Valid: false	 Busy: true
+Phys reg: 123	 Arch reg:   8	 Producer: 25964710	 Valid: false	 Busy: true
+Phys reg: 124	 Arch reg:  27	 Producer: 0	 Valid: true	 Busy: true
+Phys reg: 125	 Arch reg:  55	 Producer: 25964682	 Valid: false	 Busy: true
+Phys reg: 126	 Arch reg:  54	 Producer: 25964635	 Valid: true	 Busy: true
+Phys reg: 127	 Arch reg:  54	 Producer: 25964628	 Valid: true	 Busy: true
+
+[cpu0_LQ] entry:   0 instr_id: 25964899 address: 0x7f4ad144240f fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:   1 instr_id: 25964900 address: 0x7ffec61e05c0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:   2 instr_id: 25964754 address: 0x14cc72c fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:   3 instr_id: 25964760 address: 0x7f4ad1442419 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:   4 instr_id: 25964809 address: 0x14cb710 fetch_issued: false event_cycle: 36893488147419103 waits on 25964633
+[cpu0_LQ] entry:   5 instr_id: 25964790 address: 0x7ffec61e05c0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:   6 instr_id: 25964766 address: 0x14cbb24 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:   7 instr_id: 25964919 address: 0x14cb734 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:   8 instr_id: 25964906 address: 0x14cd734 fetch_issued: false event_cycle: 36893488147419103 waits on 25964895
+[cpu0_LQ] entry:   9 instr_id: 25964815 address: 0x7f4ad1442415 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  10 instr_id: 25964821 address: 0x14ccf14 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  11 instr_id: 25964925 address: 0x7f4ad144240d fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  12 instr_id: 25964830 address: 0x7f4ad1442414 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  13 instr_id: 25964796 address: 0x14cb324 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  14 instr_id: 25964909 address: 0x7ffec61e05d8 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  15 instr_id: 25964799 address: 0x7ffec61e05d8 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  16 instr_id: 25964845 address: 0x7ffec61e05c0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  17 instr_id: 25964803 address: 0x7f4ad1442416 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  18 instr_id: 25964689 address: 0x7ffec61e05d8 fetch_issued: true event_cycle: 13072345 waits on -
+[cpu0_LQ] entry:  19 instr_id: 25964834 address: 0x7ffec61e05c0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  20 instr_id: 25964705 address: 0x7f4ad144241d fetch_issued: true event_cycle: 13072348 waits on -
+[cpu0_LQ] entry:  21 instr_id: 25964838 address: 0x14cbb2c fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  22 instr_id: 25964734 address: 0x7f4ad144241b fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  23 instr_id: 25964913 address: 0x7f4ad144240e fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  24 instr_id: 25964851 address: 0x14cb318 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  25 instr_id: 25964931 address: 0x14cab14 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  26 instr_id: 25964974 address: 0x14cab24 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  27 instr_id: 25964940 address: 0x7f4ad144240c fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  28 instr_id: 25964944 address: 0x7ffec61e05c0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  29 instr_id: 25964948 address: 0x14cd308 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  30 instr_id: 25964631 address: 0x14cb710 fetch_issued: true event_cycle: 13072327 waits on -
+[cpu0_LQ] entry:  31 instr_id: 25964951 address: 0x7ffec61e05d8 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  32 instr_id: 25964693 address: 0x7f4ad144241e fetch_issued: true event_cycle: 13072345 waits on -
+[cpu0_LQ] entry:  33 instr_id: 25964954 address: 0x7f4ad144240b fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  34 instr_id: 25964644 address: 0x14d7f14 fetch_issued: true event_cycle: 13072328 waits on -
+[cpu0_LQ] entry:  35 instr_id: 25964955 address: 0x7ffec61e05c0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  36 instr_id: 25964656 address: 0x14d83dc fetch_issued: true event_cycle: 13072340 waits on -
+[cpu0_LQ] entry:  37 instr_id: 25964699 address: 0x14cb3d4 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  38 instr_id: 25964711 address: 0x14cb310 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  39 instr_id: 25964775 address: 0x7f4ad1442418 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  40 instr_id: 25964720 address: 0x7f4ad144241c fetch_issued: true event_cycle: 13072367 waits on -
+[cpu0_LQ] entry:  41 instr_id: 25964779 address: 0x7ffec61e05c0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  42 instr_id: 25964724 address: 0x7ffec61e05c0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  43 instr_id: 25964728 address: 0x14cab10 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  44 instr_id: 25964731 address: 0x7ffec61e05d8 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  45 instr_id: 25964735 address: 0x7ffec61e05c0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  46 instr_id: 25964741 address: 0x14ccf08 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  47 instr_id: 25964744 address: 0x7ffec61e05d8 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  48 instr_id: 25964748 address: 0x7f4ad144241a fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  49 instr_id: 25964783 address: 0x14cc718 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  50 instr_id: 25964786 address: 0x7ffec61e05d8 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  51 instr_id: 25964789 address: 0x7f4ad1442417 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  52 instr_id: 25964841 address: 0x7ffec61e05d8 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  53 instr_id: 25964844 address: 0x7f4ad1442413 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  54 instr_id: 25964854 address: 0x7ffec61e05d8 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  55 instr_id: 25964858 address: 0x7f4ad1442412 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  56 instr_id: 25964864 address: 0x14cb710 fetch_issued: false event_cycle: 36893488147419103 waits on 25964811
+[cpu0_LQ] entry:  57 instr_id: 25964870 address: 0x7f4ad1442411 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  58 instr_id: 25964876 address: 0x14cd714 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  59 instr_id: 25964885 address: 0x7f4ad1442410 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  60 instr_id: 25964889 address: 0x7ffec61e05c0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  61 instr_id: 25964893 address: 0x14cd734 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  62 instr_id: 25964896 address: 0x7ffec61e05d8 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  63 instr_id: 25964961 address: 0x14cc730 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  64 instr_id: 25964964 address: 0x7ffec61e05d8 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  65 instr_id: 25964968 address: 0x7f4ad144240a fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  66 instr_id: 25964980 address: 0x7f4ad1442409 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  67 empty
+[cpu0_LQ] entry:  68 empty
+[cpu0_LQ] entry:  69 empty
+[cpu0_LQ] entry:  70 empty
+[cpu0_LQ] entry:  71 empty
+[cpu0_LQ] entry:  72 instr_id: 25964665 address: 0x7f4ad1442420 fetch_issued: true event_cycle: 13072341 waits on -
+[cpu0_LQ] entry:  73 instr_id: 25964669 address: 0x7ffec61e05c0 fetch_issued: true event_cycle: 13072342 waits on -
+[cpu0_LQ] entry:  74 instr_id: 25964673 address: 0x14d83e0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  75 instr_id: 25964676 address: 0x7ffec61e05d8 fetch_issued: true event_cycle: 13072343 waits on -
+[cpu0_LQ] entry:  76 instr_id: 25964679 address: 0x7f4ad144241f fetch_issued: true event_cycle: 13072343 waits on -
+[cpu0_LQ] entry:  77 instr_id: 25964680 address: 0x7ffec61e05c0 fetch_issued: true event_cycle: 13072343 waits on -
+[cpu0_LQ] entry:  78 instr_id: 25964686 address: 0x14d77e0 fetch_issued: false event_cycle: 36893488147419103 waits on -
+[cpu0_LQ] entry:  79 empty
+[cpu0_LQ] entry:  80 empty
+[cpu0_LQ] entry:  81 empty
+[cpu0_LQ] entry:  82 empty
+[cpu0_LQ] entry:  83 empty
+[cpu0_LQ] entry:  84 empty
+[cpu0_LQ] entry:  85 empty
+[cpu0_LQ] entry:  86 empty
+[cpu0_LQ] entry:  87 empty
+[cpu0_LQ] entry:  88 empty
+[cpu0_LQ] entry:  89 empty
+[cpu0_LQ] entry:  90 empty
+[cpu0_LQ] entry:  91 empty
+[cpu0_LQ] entry:  92 empty
+[cpu0_LQ] entry:  93 empty
+[cpu0_LQ] entry:  94 empty
+[cpu0_LQ] entry:  95 empty
+[cpu0_LQ] entry:  96 empty
+[cpu0_LQ] entry:  97 empty
+[cpu0_LQ] entry:  98 empty
+[cpu0_LQ] entry:  99 empty
+[cpu0_LQ] entry: 100 empty
+[cpu0_LQ] entry: 101 empty
+[cpu0_LQ] entry: 102 empty
+[cpu0_LQ] entry: 103 empty
+[cpu0_LQ] entry: 104 empty
+[cpu0_LQ] entry: 105 empty
+[cpu0_LQ] entry: 106 empty
+[cpu0_LQ] entry: 107 empty
+[cpu0_LQ] entry: 108 empty
+[cpu0_LQ] entry: 109 empty
+[cpu0_LQ] entry: 110 empty
+[cpu0_LQ] entry: 111 empty
+[cpu0_LQ] entry: 112 empty
+[cpu0_LQ] entry: 113 empty
+[cpu0_LQ] entry: 114 empty
+[cpu0_LQ] entry: 115 empty
+[cpu0_LQ] entry: 116 empty
+[cpu0_LQ] entry: 117 empty
+[cpu0_LQ] entry: 118 empty
+[cpu0_LQ] entry: 119 empty
+[cpu0_LQ] entry: 120 empty
+[cpu0_LQ] entry: 121 empty
+[cpu0_LQ] entry: 122 empty
+[cpu0_LQ] entry: 123 empty
+[cpu0_LQ] entry: 124 empty
+[cpu0_LQ] entry: 125 empty
+[cpu0_LQ] entry: 126 empty
+[cpu0_LQ] entry: 127 empty
+
+[cpu0_SQ] entry:   0 instr_id: 25964633 address: 0x14cb710 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: [25964633]
+[cpu0_SQ] entry:   1 instr_id: 25964637 address: 0x7f4ad17219c0 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:   2 instr_id: 25964646 address: 0x14d7f14 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:   3 instr_id: 25964649 address: 0x7f4ad17c4b94 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:   4 instr_id: 25964658 address: 0x14d83dc fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:   5 instr_id: 25964663 address: 0x7f4ad17d7430 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:   6 instr_id: 25964675 address: 0x14d83e0 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:   7 instr_id: 25964678 address: 0x7f4ad17d7970 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:   8 instr_id: 25964688 address: 0x14d77e0 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:   9 instr_id: 25964692 address: 0x7f4ad17a7b1c fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  10 instr_id: 25964701 address: 0x14cb3d4 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  11 instr_id: 25964704 address: 0x7f4ad171fa78 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  12 instr_id: 25964713 address: 0x14cb310 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  13 instr_id: 25964718 address: 0x7f4ad17180dc fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  14 instr_id: 25964730 address: 0x14cab10 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  15 instr_id: 25964733 address: 0x7f4ad16ef928 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  16 instr_id: 25964743 address: 0x14ccf08 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  17 instr_id: 25964747 address: 0x7f4ad1746ab8 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  18 instr_id: 25964756 address: 0x14cc72c fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  19 instr_id: 25964759 address: 0x7f4ad1741c74 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  20 instr_id: 25964768 address: 0x14cbb24 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  21 instr_id: 25964773 address: 0x7f4ad17300c4 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  22 instr_id: 25964785 address: 0x14cc718 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  23 instr_id: 25964788 address: 0x7f4ad17404f4 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  24 instr_id: 25964798 address: 0x14cb324 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  25 instr_id: 25964802 address: 0x7f4ad171d398 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  26 instr_id: 25964811 address: 0x14cb710 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: [25964811]
+[cpu0_SQ] entry:  27 instr_id: 25964814 address: 0x7f4ad17219bc fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  28 instr_id: 25964823 address: 0x14ccf14 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  29 instr_id: 25964828 address: 0x7f4ad17475b4 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  30 instr_id: 25964840 address: 0x14cbb2c fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  31 instr_id: 25964843 address: 0x7f4ad17308e8 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  32 instr_id: 25964853 address: 0x14cb318 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  33 instr_id: 25964857 address: 0x7f4ad1719fdc fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  34 instr_id: 25964866 address: 0x14cb710 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  35 instr_id: 25964869 address: 0x7f4ad17219b8 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  36 instr_id: 25964878 address: 0x14cd714 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  37 instr_id: 25964883 address: 0x7f4ad174d78c fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  38 instr_id: 25964895 address: 0x14cd734 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: [25964895]
+[cpu0_SQ] entry:  39 instr_id: 25964898 address: 0x7f4ad1751af0 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  40 instr_id: 25964908 address: 0x14cd734 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  41 instr_id: 25964912 address: 0x7f4ad1751aec fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  42 instr_id: 25964921 address: 0x14cb734 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  43 instr_id: 25964924 address: 0x7f4ad1727cbc fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  44 instr_id: 25964933 address: 0x14cab14 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  45 instr_id: 25964938 address: 0x7f4ad16efa74 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  46 instr_id: 25964950 address: 0x14cd308 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  47 instr_id: 25964953 address: 0x7f4ad1749bc4 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  48 instr_id: 25964963 address: 0x14cc730 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  49 instr_id: 25964967 address: 0x7f4ad1742124 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  50 instr_id: 25964976 address: 0x14cab24 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+[cpu0_SQ] entry:  51 instr_id: 25964979 address: 0x7f4ad16efde8 fetch_issued: false event_cycle: 36893488147419103 LQ waiting: []
+
+[cpu0_STLB_MSHR] entry:   0 instr_id: 25959699 address: 0x7f4ad18c0088 v_addr: 0x7f4ad18c0088 type: LOAD ready: true
+[cpu0_STLB_MSHR] entry:   1 instr_id: 25960318 address: 0x7f4ad18320c0 v_addr: 0x7f4ad18320c0 type: LOAD ready: true
+[cpu0_STLB_MSHR] entry:   2 instr_id: 25960608 address: 0x7f4ad17ac53c v_addr: 0x7f4ad17ac53c type: LOAD ready: true
+[cpu0_STLB_MSHR] entry:   3 instr_id: 25960663 address: 0x7f4ad18dc798 v_addr: 0x7f4ad18dc798 type: LOAD ready: true
+[cpu0_STLB_MSHR] entry:   4 instr_id: 25960787 address: 0x7f4ad1765dd4 v_addr: 0x7f4ad1765dd4 type: LOAD ready: true
+[cpu0_STLB_MSHR] entry:   5 instr_id: 25963812 address: 0x7f4ad18afd38 v_addr: 0x7f4ad18afd38 type: LOAD ready: true
+[cpu0_STLB_MSHR] entry:   6 instr_id: 25964484 address: 0x7f4ad1851c64 v_addr: 0x7f4ad1851c64 type: LOAD ready: true
+[cpu0_STLB_MSHR] entry:   7 instr_id: 25964568 address: 0x7f4ad18d271c v_addr: 0x7f4ad18d271c type: LOAD ready: true
+
+cpu0_STLB_tags empty
+
+cpu0_STLB_translation empty
+
+cpu0_STLB_RQ empty
+
+cpu0_STLB_WQ empty
+
+cpu0_STLB_PQ empty
+
+cpu0_STLB_RQ empty
+
+cpu0_STLB_WQ empty
+
+cpu0_STLB_PQ empty
+
+cpu0_STLB_RQ empty
+
+cpu0_STLB_WQ empty
+
+cpu0_STLB_PQ empty
+
+cpu0_L2C_MSHR empty
+
+cpu0_L2C_tags empty
+
+cpu0_L2C_translation empty
+
+cpu0_L2C_RQ empty
+
+cpu0_L2C_WQ empty
+
+cpu0_L2C_PQ empty
+
+cpu0_L2C_RQ empty
+
+cpu0_L2C_WQ empty
+
+cpu0_L2C_PQ empty
+
+cpu0_L1I_MSHR empty
+
+cpu0_L1I_tags empty
+
+cpu0_L1I_translation empty
+
+cpu0_L1I_RQ empty
+
+cpu0_L1I_WQ empty
+
+cpu0_L1I_PQ empty
+
+cpu0_L1D_MSHR empty
+
+cpu0_L1D_tags empty
+
+[cpu0_L1D_translation] entry:   0 instr_id: 25959699 address: 0x7f4ad18c0088 v_addr: 0x7f4ad18c0088 is_translated: false translate_issued: true event_cycle: 13066447
+[cpu0_L1D_translation] entry:   1 instr_id: 25960318 address: 0x7f4ad18320c0 v_addr: 0x7f4ad18320c0 is_translated: false translate_issued: true event_cycle: 13067430
+[cpu0_L1D_translation] entry:   2 instr_id: 25960608 address: 0x7f4ad17ac53c v_addr: 0x7f4ad17ac53c is_translated: false translate_issued: true event_cycle: 13067612
+[cpu0_L1D_translation] entry:   3 instr_id: 25960663 address: 0x7f4ad18dc798 v_addr: 0x7f4ad18dc798 is_translated: false translate_issued: true event_cycle: 13067656
+[cpu0_L1D_translation] entry:   4 instr_id: 25960787 address: 0x7f4ad1765dd4 v_addr: 0x7f4ad1765dd4 is_translated: false translate_issued: true event_cycle: 13068733
+[cpu0_L1D_translation] entry:   5 instr_id: 25960952 address: 0x7f4ad18320bc v_addr: 0x7f4ad18320bc is_translated: false translate_issued: true event_cycle: 13068835
+[cpu0_L1D_translation] entry:   6 instr_id: 25961638 address: 0x7f4ad18320b8 v_addr: 0x7f4ad18320b8 is_translated: false translate_issued: true event_cycle: 13069641
+[cpu0_L1D_translation] entry:   7 instr_id: 25962753 address: 0x7f4ad18320b4 v_addr: 0x7f4ad18320b4 is_translated: false translate_issued: true event_cycle: 13070835
+[cpu0_L1D_translation] entry:   8 instr_id: 25963812 address: 0x7f4ad18afd38 v_addr: 0x7f4ad18afd38 is_translated: false translate_issued: true event_cycle: 13071685
+[cpu0_L1D_translation] entry:   9 instr_id: 25964443 address: 0x7f4ad17ac538 v_addr: 0x7f4ad17ac538 is_translated: false translate_issued: true event_cycle: 13072254
+[cpu0_L1D_translation] entry:  10 instr_id: 25964484 address: 0x7f4ad1851c64 v_addr: 0x7f4ad1851c64 is_translated: false translate_issued: true event_cycle: 13072287
+[cpu0_L1D_translation] entry:  11 instr_id: 25964568 address: 0x7f4ad18d271c v_addr: 0x7f4ad18d271c is_translated: false translate_issued: true event_cycle: 13072341
+[cpu0_L1D_translation] entry:  12 instr_id: 25964594 address: 0x7f4ad1852df8 v_addr: 0x7f4ad1852df8 is_translated: false translate_issued: true event_cycle: 13072351
+[cpu0_L1D_translation] entry:  13 instr_id: 25964603 address: 0x14cf404 v_addr: 0x14cf404 is_translated: false translate_issued: true event_cycle: 13072353
+[cpu0_L1D_translation] entry:  14 instr_id: 25964608 address: 0x7f4ad1766d88 v_addr: 0x7f4ad1766d88 is_translated: false translate_issued: true event_cycle: 13072356
+[cpu0_L1D_translation] entry:  15 instr_id: 25964631 address: 0x14cb710 v_addr: 0x14cb710 is_translated: false translate_issued: true event_cycle: 13072357
+[cpu0_L1D_translation] entry:  16 instr_id: 25964650 address: 0x7f4ad1442421 v_addr: 0x7f4ad1442421 is_translated: false translate_issued: true event_cycle: 13072359
+[cpu0_L1D_translation] entry:  17 instr_id: 25964644 address: 0x14d7f14 v_addr: 0x14d7f14 is_translated: false translate_issued: true event_cycle: 13072360
+[cpu0_L1D_translation] entry:  18 instr_id: 25964656 address: 0x14d83dc v_addr: 0x14d83dc is_translated: false translate_issued: true event_cycle: 13072362
+[cpu0_L1D_translation] entry:  19 instr_id: 25964669 address: 0x7ffec61e05c0 v_addr: 0x7ffec61e05c0 is_translated: false translate_issued: true event_cycle: 13072363
+[cpu0_L1D_translation] entry:  20 instr_id: 25964620 address: 0x14cb350 v_addr: 0x14cb350 is_translated: false translate_issued: true event_cycle: 13072366
+[cpu0_L1D_translation] entry:  21 instr_id: 25964623 address: 0x7f4ad171f5e0 v_addr: 0x7f4ad171f5e0 is_translated: false translate_issued: true event_cycle: 13072367
+[cpu0_L1D_translation] entry:  22 instr_id: 25964720 address: 0x7f4ad144241c v_addr: 0x7f4ad144241c is_translated: false translate_issued: true event_cycle: 13072370
+
+cpu0_L1D_RQ empty
+
+cpu0_L1D_WQ empty
+
+cpu0_L1D_PQ empty
+
+cpu0_L1D_RQ empty
+
+cpu0_L1D_WQ empty
+
+cpu0_L1D_PQ empty
+
+cpu0_ITLB_MSHR empty
+
+cpu0_ITLB_tags empty
+
+cpu0_ITLB_translation empty
+
+cpu0_ITLB_RQ empty
+
+cpu0_ITLB_WQ empty
+
+cpu0_ITLB_PQ empty
+
+[cpu0_DTLB_MSHR] entry:   0 instr_id: 25962753 address: 0x7f4ad18320b4 v_addr: 0x7f4ad18320b4 type: LOAD ready: false
+[cpu0_DTLB_MSHR] entry:   1 instr_id: 25960787 address: 0x7f4ad1765dd4 v_addr: 0x7f4ad1765dd4 type: LOAD ready: false
+[cpu0_DTLB_MSHR] entry:   2 instr_id: 25964484 address: 0x7f4ad1851c64 v_addr: 0x7f4ad1851c64 type: LOAD ready: false
+[cpu0_DTLB_MSHR] entry:   3 instr_id: 25960663 address: 0x7f4ad18dc798 v_addr: 0x7f4ad18dc798 type: LOAD ready: false
+[cpu0_DTLB_MSHR] entry:   4 instr_id: 25963812 address: 0x7f4ad18afd38 v_addr: 0x7f4ad18afd38 type: LOAD ready: false
+[cpu0_DTLB_MSHR] entry:   5 instr_id: 25964443 address: 0x7f4ad17ac538 v_addr: 0x7f4ad17ac538 type: LOAD ready: false
+[cpu0_DTLB_MSHR] entry:   6 instr_id: 25959699 address: 0x7f4ad18c0088 v_addr: 0x7f4ad18c0088 type: LOAD ready: false
+[cpu0_DTLB_MSHR] entry:   7 instr_id: 25964568 address: 0x7f4ad18d271c v_addr: 0x7f4ad18d271c type: LOAD ready: false
+
+[cpu0_DTLB_tags] entry:   0 instr_id: 25964594 address: 0x7f4ad1852df8 v_addr: 0x7f4ad1852df8 is_translated: true translate_issued: false event_cycle: 13072350
+
+cpu0_DTLB_translation empty
+
+[cpu0_DTLB_RQ] entry:   0 instr_id: 25964603 address: 0x14cf404 v_addr: 0x14cf404 type: LOAD translated: true
+[cpu0_DTLB_RQ] entry:   1 instr_id: 25964608 address: 0x7f4ad1766d88 v_addr: 0x7f4ad1766d88 type: LOAD translated: true
+[cpu0_DTLB_RQ] entry:   2 instr_id: 25964631 address: 0x14cb710 v_addr: 0x14cb710 type: LOAD translated: true
+[cpu0_DTLB_RQ] entry:   3 instr_id: 25964650 address: 0x7f4ad1442421 v_addr: 0x7f4ad1442421 type: LOAD translated: true
+[cpu0_DTLB_RQ] entry:   4 instr_id: 25964644 address: 0x14d7f14 v_addr: 0x14d7f14 type: LOAD translated: true
+[cpu0_DTLB_RQ] entry:   5 instr_id: 25964656 address: 0x14d83dc v_addr: 0x14d83dc type: LOAD translated: true
+[cpu0_DTLB_RQ] entry:   6 instr_id: 25964669 address: 0x7ffec61e05c0 v_addr: 0x7ffec61e05c0 type: LOAD translated: true
+[cpu0_DTLB_RQ] entry:   7 instr_id: 25964623 address: 0x7f4ad171f5e0 v_addr: 0x7f4ad171f5e0 type: LOAD translated: true
+
+cpu0_DTLB_WQ empty
+
+cpu0_DTLB_PQ empty
+
+LLC_MSHR empty
+
+LLC_tags empty
+
+LLC_translation empty
+
+LLC_RQ empty
+
+LLC_WQ empty
+
+LLC_PQ empty
+
+cpu0_PTW_MSHR empty
+
+DRAM Channel 0
+[RQ] entry:   0 empty
+[RQ] entry:   1 empty
+[RQ] entry:   2 empty
+[RQ] entry:   3 empty
+[RQ] entry:   4 empty
+[RQ] entry:   5 empty
+[RQ] entry:   6 empty
+[RQ] entry:   7 empty
+[RQ] entry:   8 empty
+[RQ] entry:   9 empty
+[RQ] entry:  10 empty
+[RQ] entry:  11 empty
+[RQ] entry:  12 empty
+[RQ] entry:  13 empty
+[RQ] entry:  14 empty
+[RQ] entry:  15 empty
+[RQ] entry:  16 empty
+[RQ] entry:  17 empty
+[RQ] entry:  18 empty
+[RQ] entry:  19 empty
+[RQ] entry:  20 empty
+[RQ] entry:  21 empty
+[RQ] entry:  22 empty
+[RQ] entry:  23 empty
+[RQ] entry:  24 empty
+[RQ] entry:  25 empty
+[RQ] entry:  26 empty
+[RQ] entry:  27 empty
+[RQ] entry:  28 empty
+[RQ] entry:  29 empty
+[RQ] entry:  30 empty
+[RQ] entry:  31 empty
+[RQ] entry:  32 empty
+[RQ] entry:  33 empty
+[RQ] entry:  34 empty
+[RQ] entry:  35 empty
+[RQ] entry:  36 empty
+[RQ] entry:  37 empty
+[RQ] entry:  38 empty
+[RQ] entry:  39 empty
+[RQ] entry:  40 empty
+[RQ] entry:  41 empty
+[RQ] entry:  42 empty
+[RQ] entry:  43 empty
+[RQ] entry:  44 empty
+[RQ] entry:  45 empty
+[RQ] entry:  46 empty
+[RQ] entry:  47 empty
+[RQ] entry:  48 empty
+[RQ] entry:  49 empty
+[RQ] entry:  50 empty
+[RQ] entry:  51 empty
+[RQ] entry:  52 empty
+[RQ] entry:  53 empty
+[RQ] entry:  54 empty
+[RQ] entry:  55 empty
+[RQ] entry:  56 empty
+[RQ] entry:  57 empty
+[RQ] entry:  58 empty
+[RQ] entry:  59 empty
+[RQ] entry:  60 empty
+[RQ] entry:  61 empty
+[RQ] entry:  62 empty
+[RQ] entry:  63 empty
+
+[WQ] entry:   0 empty
+[WQ] entry:   1 empty
+[WQ] entry:   2 empty
+[WQ] entry:   3 empty
+[WQ] entry:   4 empty
+[WQ] entry:   5 empty
+[WQ] entry:   6 empty
+[WQ] entry:   7 empty
+[WQ] entry:   8 empty
+[WQ] entry:   9 empty
+[WQ] entry:  10 empty
+[WQ] entry:  11 empty
+[WQ] entry:  12 empty
+[WQ] entry:  13 empty
+[WQ] entry:  14 empty
+[WQ] entry:  15 empty
+[WQ] entry:  16 empty
+[WQ] entry:  17 empty
+[WQ] entry:  18 empty
+[WQ] entry:  19 empty
+[WQ] entry:  20 empty
+[WQ] entry:  21 empty
+[WQ] entry:  22 empty
+[WQ] entry:  23 empty
+[WQ] entry:  24 empty
+[WQ] entry:  25 empty
+[WQ] entry:  26 empty
+[WQ] entry:  27 empty
+[WQ] entry:  28 empty
+[WQ] entry:  29 empty
+[WQ] entry:  30 empty
+[WQ] entry:  31 empty
+[WQ] entry:  32 empty
+[WQ] entry:  33 empty
+[WQ] entry:  34 empty
+[WQ] entry:  35 empty
+[WQ] entry:  36 empty
+[WQ] entry:  37 empty
+[WQ] entry:  38 empty
+[WQ] entry:  39 empty
+[WQ] entry:  40 empty
+[WQ] entry:  41 empty
+[WQ] entry:  42 empty
+[WQ] entry:  43 empty
+[WQ] entry:  44 empty
+[WQ] entry:  45 empty
+[WQ] entry:  46 empty
+[WQ] entry:  47 empty
+[WQ] entry:  48 empty
