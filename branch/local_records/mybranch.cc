@@ -7,7 +7,7 @@ bool mybranch::predict(const mybranch::occurency_entry& entry) {
   bool last_prediction  = entry.history       [HISTORY_SIZE-RECORD_BLOCK_SIZE+1];
   bool repeated         = entry.equal_record  [RECORD_SIZE-1];
   bool is_last_in_block = (entry.counter == RECORD_BLOCK_SIZE-1);
-  
+
   bool is_repeating     = entry.counter;
   for(int i=2; i<entry.counter; ++i) {
     is_repeating &= entry.history[HISTORY_SIZE-RECORD_BLOCK_SIZE+i];
@@ -19,7 +19,6 @@ bool mybranch::predict(const mybranch::occurency_entry& entry) {
   }
 
   return prediction;
-
 }
 
 bool mybranch::predict_branch(champsim::address ip)

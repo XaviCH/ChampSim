@@ -10,7 +10,7 @@
 struct gshare : champsim::modules::branch_predictor {
   static constexpr std::size_t GLOBAL_HISTORY_LENGTH = 14;
   static constexpr std::size_t COUNTER_BITS = 2;
-  static constexpr std::size_t GS_HISTORY_TABLE_SIZE = 16384;
+  static constexpr std::size_t GS_HISTORY_TABLE_SIZE = 524288;
 
   std::bitset<GLOBAL_HISTORY_LENGTH> branch_history_vector;
   std::array<champsim::msl::fwcounter<COUNTER_BITS>, GS_HISTORY_TABLE_SIZE> gs_history_table;

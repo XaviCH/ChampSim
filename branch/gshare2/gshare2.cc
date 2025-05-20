@@ -53,6 +53,7 @@ void gshare2::last_branch_result(champsim::address ip, champsim::address branch_
   branch_history_vector <<= 1;
   branch_history_vector[0] = taken;
 
+  // debug
   if (call_counter && (call_counter % 2000000) == 0) {
     size_t ones = 0;
     for (auto ip_history : ip_history_table) {

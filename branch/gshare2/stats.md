@@ -27,3 +27,30 @@ BRANCH_CONDITIONAL: 0.02558
 BRANCH_DIRECT_CALL: 0
 BRANCH_INDIRECT_CALL: 0
 BRANCH_RETURN: 0
+
+##
+CPU 0 runs /home/xavier/Descargas/602.gcc_s-2375B.champsimtrace.xz
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.8834 instructions: 500000003 cycles: 565988508
+CPU 0 Branch Prediction Accuracy: 88.56% MPKI: 24.51 Average ROB Occupancy at Mispredict: 19.61
+Branch type MPKI
+BRANCH_DIRECT_JUMP: 0.6668
+BRANCH_INDIRECT: 0.6643
+BRANCH_CONDITIONAL: 22.61
+BRANCH_DIRECT_CALL: 0.2989
+BRANCH_INDIRECT_CALL: 0.08021
+BRANCH_RETURN: 0.1912
+
+Last Tendency Balance
+Tendency balance: 0.239716.
+Tendency balance: 0.274567.
+Tendency balance: 0.242035.
+Tendency balance: 0.265274.
+Tendency balance: 0.261185.
+Tendency balance: 0.294037.
+Tendency balance: 0.244781.
+Tendency balance: 0.293289.
+Tendency balance: 0.267380.
+Tendency balance: 0.214294.

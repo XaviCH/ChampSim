@@ -45,14 +45,14 @@ uint32_t mypref::prefetcher_cache_operate(champsim::address addr, champsim::addr
       last_missed_pairs[i+1] = last_missed_pairs[i];
     last_missed_pairs[0] = {.ip=ip, .addr=addr};
 
-  }
-
-  if (found.has_value()) {
-    miss_related_lookahead = found.value();
-    miss_related_lookahead->ip=addr;
-    miss_related_table.fill(found.value());
-  } else if (!cache_hit) {
-    miss_related_table.fill((miss_related_table_entry){.ip=ip});
+    
+    if (found.has_value()) {
+      miss_related_lookahead = found.value();
+      miss_related_lookahead->ip=addr;
+      miss_related_table.fill(found.value());
+    } else {
+      miss_related_table.fill((miss_related_table_entry){.ip=ip});
+    }
   }
 
   return metadata_in;
