@@ -1,0 +1,1 @@
+CPU 0 Branch Prediction Accuracy: 97.14% MPKI: 5.831 Average ROB Occupancy at Mispredict: 88.38
