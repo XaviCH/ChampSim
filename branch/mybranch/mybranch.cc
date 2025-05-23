@@ -1,14 +1,14 @@
-#include "gshare2.h"
+#include "mybranch.h"
 
 
-std::size_t gshare2::ip_table_hash(champsim::address ip)
+std::size_t mybranch::ip_table_hash(champsim::address ip)
 {
   std::size_t hash = ip.to<ulong>();
 
   return (hash >> 2) % IP_HISTORY_TABLE_SIZE;
 }
 
-std::size_t gshare2::gs_table_hash(champsim::address ip, std::bitset<GLOBAL_HISTORY_LENGTH> bh_vector, std::bitset<GLOBAL_HISTORY_LENGTH> mask)
+std::size_t mybranch::gs_table_hash(champsim::address ip, std::bitset<GLOBAL_HISTORY_LENGTH> bh_vector, std::bitset<GLOBAL_HISTORY_LENGTH> mask)
 {
   constexpr champsim::data::bits LOG2_HISTORY_TABLE_SIZE{champsim::lg2(GS_HISTORY_TABLE_SIZE)};
   constexpr champsim::data::bits LENGTH{GLOBAL_HISTORY_LENGTH};
@@ -23,7 +23,7 @@ std::size_t gshare2::gs_table_hash(champsim::address ip, std::bitset<GLOBAL_HIST
 }
 
 
-bool gshare2::predict_branch(champsim::address ip)
+bool mybranch::predict_branch(champsim::address ip)
 {
   auto mask = ip_history_table[ip_table_hash(ip)].branch_mask;
   auto gs_hash = gs_table_hash(ip, branch_history_vector, mask);
@@ -31,7 +31,7 @@ bool gshare2::predict_branch(champsim::address ip)
   return value.value() >= (value.maximum / 2);
 }
 
-void gshare2::last_branch_result(champsim::address ip, champsim::address branch_target, bool taken, uint8_t branch_type)
+void mybranch::last_branch_result(champsim::address ip, champsim::address branch_target, bool taken, uint8_t branch_type)
 {
   // update gs history table
   auto mask = ip_history_table[ip_table_hash(ip)].branch_mask;
@@ -54,6 +54,7 @@ void gshare2::last_branch_result(champsim::address ip, champsim::address branch_
   branch_history_vector[0] = taken;
 
   // debug
+  /*
   if (call_counter && (call_counter % 2000000) == 0) {
     size_t ones = 0;
     for (auto ip_history : ip_history_table) {
@@ -62,4 +63,5 @@ void gshare2::last_branch_result(champsim::address ip, champsim::address branch_
     printf("Tendency balance: %f.\n", (double) ones / (double) (GLOBAL_HISTORY_LENGTH*IP_HISTORY_TABLE_SIZE));
   }
   ++call_counter;
+  */
 }

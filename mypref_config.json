@@ -6,6 +6,6 @@
     ],
 
     "L1D": {
-        "prefetcher": "mypref"
+        "prefetcher": "myl1pref"
     }
 }

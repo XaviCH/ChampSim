@@ -1,4 +1,4 @@
-#include "mypref.h"
+#include "myl1pref.h"
 
 #include "cache.h"
 
@@ -16,7 +16,7 @@
 // 2
 // ip st 0x1040 10
 
-uint32_t mypref::prefetcher_cache_operate(champsim::address addr, champsim::address ip, uint8_t cache_hit, bool useful_prefetch, access_type type,
+uint32_t myl1pref::prefetcher_cache_operate(champsim::address addr, champsim::address ip, uint8_t cache_hit, bool useful_prefetch, access_type type,
                                       uint32_t metadata_in)
 {
   champsim::block_number cl_addr{addr};
@@ -32,33 +32,51 @@ uint32_t mypref::prefetcher_cache_operate(champsim::address addr, champsim::addr
       
       if (found_related.has_value()) {
         miss_related_table_entry update_entry = found_related.value();
-        for (int i=0; i<MISS_RELATED_STRIDE_SIZE-1; ++i) {
+        
+        auto offset = champsim::offset(cl_missed_addr, cl_addr);
+
+        int index = MISS_RELATED_STRIDE_SIZE-1;
+        for (int i=0; i<MISS_RELATED_STRIDE_SIZE; ++i) {
+          if (update_entry.stride_queue[i] == offset) {
+            index = i;
+            break;
+          }
+        }
+        for (int i=0; i<index; ++i) {
           update_entry.stride_queue[i+1] = update_entry.stride_queue[i];
         }
-        update_entry.stride_queue[0] = champsim::offset(cl_missed_addr, cl_addr);
+
+        update_entry.stride_queue[0] = offset;
         miss_related_table.fill(update_entry);
       }
     }
 
     // update miss list
-    for (int i=0; i<MISS_RELATED_STRIDE_SIZE-1; ++i)
+    int index = MISS_RELATED_STRIDE_SIZE-1;
+    for (int i=0; i<MISS_RELATED_STRIDE_SIZE; ++i) {
+      if (last_missed_pairs[i].ip == ip && last_missed_pairs[i].addr == addr) index = i;
+    }
+    for (int i=0; i<index; ++i)
       last_missed_pairs[i+1] = last_missed_pairs[i];
     last_missed_pairs[0] = {.ip=ip, .addr=addr};
 
-    
+  }
+  
+  if (!cache_hit || !ONLY_PREFETCH_ON_MISS) {
+
     if (found.has_value()) {
       miss_related_lookahead = found.value();
       miss_related_lookahead->ip=addr;
       miss_related_table.fill(found.value());
-    } else {
+    } else if (!cache_hit) {
       miss_related_table.fill((miss_related_table_entry){.ip=ip});
     }
   }
-
+    
   return metadata_in;
 }
 
-void mypref::prefetcher_cycle_operate()
+void myl1pref::prefetcher_cycle_operate()
 {
   if (miss_related_lookahead.has_value()) {
 
@@ -66,8 +84,8 @@ void mypref::prefetcher_cycle_operate()
     if (strides[0] != 0) {
       champsim::address pf_addr{champsim::block_number{addr} + strides[0]};
       bool success = true;
-      if (champsim::page_number{pf_addr} == champsim::page_number{addr} || !mypref::ONLY_SAME_PAGE) {
-        const bool mshr_under_light_load = intern_->get_mshr_occupancy_ratio() < mypref::OCCUPANCY_THRESHOLD;
+      if (champsim::page_number{pf_addr} == champsim::page_number{addr} || !myl1pref::ONLY_SAME_PAGE) {
+        const bool mshr_under_light_load = intern_->get_mshr_occupancy_ratio() < myl1pref::OCCUPANCY_THRESHOLD;
         success = prefetch_line(pf_addr, mshr_under_light_load, 0);
       }
 
@@ -82,7 +100,7 @@ void mypref::prefetcher_cycle_operate()
   }
 }
 
-uint32_t mypref::prefetcher_cache_fill(champsim::address addr, long set, long way, uint8_t prefetch, champsim::address evicted_addr, uint32_t metadata_in)
+uint32_t myl1pref::prefetcher_cache_fill(champsim::address addr, long set, long way, uint8_t prefetch, champsim::address evicted_addr, uint32_t metadata_in)
 { 
   return metadata_in;
 }

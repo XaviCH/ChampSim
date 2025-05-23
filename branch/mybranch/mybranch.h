@@ -31,8 +31,11 @@
   size = COUNTER_BITS*GS_HISTORY_TABLE_SIZE + GLOBAL_HISTORY_LENGTH * (1 + (TENDENCY_BITS*2 + 1) * IP_HISTORY_TABLE_SIZE)
   192 kB
   57352 Bytes
+
+  131072
+  57344 or 73728
 */
-struct gshare2 : champsim::modules::branch_predictor {
+struct mybranch : champsim::modules::branch_predictor {
   static constexpr std::size_t GLOBAL_HISTORY_LENGTH = GLOBAL_HISTORY_LENGTH_VALUE;
   static constexpr std::size_t COUNTER_BITS = COUNTER_BITS_VALUE;
   static constexpr std::size_t GS_HISTORY_TABLE_SIZE = GS_HISTORY_TABLE_SIZE_VALUE;

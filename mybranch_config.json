@@ -2,7 +2,7 @@
 
     "ooo_cpu": [
         {
-            "branch_predictor": "gshare2"
+            "branch_predictor": "mybranch"
         }
     ]
 
