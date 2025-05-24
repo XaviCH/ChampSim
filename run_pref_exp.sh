@@ -3,7 +3,7 @@ EXP1_DIR=myl1pref_exp1_logs
 EXP2_DIR=myl1pref_exp2_logs
 EXP3_DIR=myl1pref_exp3_logs
 
-PREF_TESTS=(437.leslie3d-273B.champsimtrace.xz 435.gromacs-228B.champsimtrace.xz 410.bwaves-2097B.champsimtrace.xz)
+PREF_TESTS=(437.leslie3d-273B.champsimtrace.xz 435.gromacs-228B.champsimtrace.xz 410.bwaves-2097B.champsimtrace.xz 453.povray-887B.champsimtrace.xz)
 BRANCH_TESTS=(400.perlbench-41B.champsimtrace.xz 401.bzip2-277B.champsimtrace.xz)
 
 PREF_CONFIGS=(mypref_config.json ip_stride_config.json next_line_config.json spp_dev_config.json va_ampm_lite_config.json)
