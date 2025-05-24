@@ -6,6 +6,6 @@
     ],
 
     "L1D": {
-        "prefetcher": "myl1pref"
+        "prefetcher": "va_ampm_lite"
     }
 }
